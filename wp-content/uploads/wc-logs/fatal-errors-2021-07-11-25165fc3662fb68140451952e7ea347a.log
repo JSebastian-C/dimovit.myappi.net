@@ -1,0 +1,72 @@
+2021-07-11T16:42:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en D:\P\Wamp\www\dimovit.myappi.net\wp-includes\blocks.php en la línea 203
+
+2021-07-11T12:36:54-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('yorman@mail.com')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(427): do_action('wp_login', 'yorman@mail.com')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->d en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+
+2021-07-11T12:36:55-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('yorman@mail.com')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(427): do_action('wp_login', 'yorman@mail.com')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->d en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+
+2021-07-11T13:06:49-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('sebastianCO1999...')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(427): do_action('wp_login', 'sebastianCO1999...')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_H en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+
+2021-07-11T13:21:27-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_user_logged_in(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:872
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_user_logged_in('sebastianCO1999...')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(427): do_action('wp_login', 'sebastianCO1999...')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 872
+
+2021-07-11T13:31:03-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('sebastianCO1999...')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(427): do_action('wp_login', 'sebastianCO1999...')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_H en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+
+2021-07-11T14:01:42-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('sebastianCO1999...')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(425): do_action('wp_login', 'sebastianCO1999...')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_H en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+
+2021-07-11T14:08:40-05:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php:856
+Stack trace:
+#0 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): wc_maybe_store_user_agent('sebastianCO1999...')
+#1 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\applay-child\functions.php(425): do_action('wp_login', 'sebastianCO1999...')
+#4 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(292): custom_ajax('')
+#5 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php(484): WP_H en D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\woocommerce\includes\wc-user-functions.php en la línea 856
+

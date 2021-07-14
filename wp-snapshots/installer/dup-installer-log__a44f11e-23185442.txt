@@ -1,0 +1,693 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:29:56
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.25                                |7.1.24
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-01-23 18:54:42
+WP VERSION__________: 5.2.5
+DUP VERSION_________: 1.3.24
+DB__________________: 5.6.41
+DB TABLES___________: 56
+DB ROWS_____________: 14,628
+DB FILE SIZE________: 4.63MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.24 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home2/iparke/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://iparke.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200123_iparke_a44f11e6d9f788307903_20200123185442_archive.zip"
+SIZE________________: 59.9MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home2/iparke/public_html/20200123_iparke_a44f11e6d9f788307903_20200123185442_archive.zip' -d '/home2/iparke/public_html' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 01:29:59 - RUNTIME: 2.8646 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:30:21
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.41 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__a44f11e-23185442.sql (4.42MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home2/iparke/public_html/dup-installer/dup-installer-data__a44f11e-23185442.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	484
+
+wp_commentmeta: (0)
+wp_comments: (38)
+wp_create_map: (1)
+wp_duplicator_packages: (0)
+wp_group_map: (0)
+wp_links: (0)
+wp_map_locations: (0)
+wp_map_routes: (0)
+wp_options: (286)
+wp_postmeta: (2241)
+wp_posts: (335)
+wp_term_relationships: (220)
+wp_term_taxonomy: (55)
+wp_termmeta: (0)
+wp_terms: (55)
+wp_usermeta: (66)
+wp_users: (2)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (0)
+wp_wc_webhooks: (0)
+wp_wfblockediplog: (0)
+wp_wfblocks7: (0)
+wp_wfconfig: (246)
+wp_wfcrawlers: (2)
+wp_wffilechanges: (0)
+wp_wffilemods: (5194)
+wp_wfhits: (1)
+wp_wfhoover: (0)
+wp_wfissues: (14)
+wp_wfknownfilelist: (5194)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (1)
+wp_wflogins: (1)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (2)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (3)
+wp_wfsnipcache: (0)
+wp_wfstatus: (595)
+wp_wftrafficrates: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpgmp_backups: (0)
+Removed '56' cache/transient rows
+
+INSERT DATA RUNTIME: 1.7980 sec.
+STEP-2 COMPLETE @ 01:30:23 - RUNTIME: 1.8139 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:30:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "IParke"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home2/f2f7k4p7/public_html/iparke/"
+path_new______________: "/home2/iparke/public_html/"
+siteurl_______________: "https://iparke.com"
+url_old_______________: "https://iparke.com"
+url_new_______________: "https://iparke.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "iparke_admin"
+dbname________________: "iparke_bd"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_create_map"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_group_map"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_locations"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_routes"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   286][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2241][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   335][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   220][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   246][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:  5194][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  5194][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   595][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/f2f7k4p7/public_html/iparke/" =============> "/home2/iparke/public_html/"
+	SEARCH  2:"\/home2\/f2f7k4p7\/public_html\/iparke\/" ========> "\/home2\/iparke\/public_html\/"
+	SEARCH  3:"%2Fhome2%2Ff2f7k4p7%2Fpublic_html%2Fiparke%2F" ===> "%2Fhome2%2Fiparke%2Fpublic_html%2F"
+	SEARCH  4:"\home2\f2f7k4p7\public_html\iparke" ==============> "/home2/iparke/public_html"
+	SEARCH  5:"\\home2\\f2f7k4p7\\public_html\\iparke" ==========> "\/home2\/iparke\/public_html"
+	SEARCH  6:"%5Chome2%5Cf2f7k4p7%5Cpublic_html%5Ciparke" ======> "%2Fhome2%2Fiparke%2Fpublic_html"
+	SEARCH  7:"//www.iparke.com" ================================> "//iparke.com"
+	SEARCH  8:"\/\/www.iparke.com" ==============================> "\/\/iparke.com"
+	SEARCH  9:"%2F%2Fwww.iparke.com" ============================> "%2F%2Fiparke.com"
+	SEARCH 10:"http://iparke.com" ===============================> "https://iparke.com"
+	SEARCH 11:"http:\/\/iparke.com" =============================> "https:\/\/iparke.com"
+	SEARCH 12:"http%3A%2F%2Fiparke.com" =========================> "https%3A%2F%2Fiparke.com"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmp_backups"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:56 	|	 Rows:14572 	|	 Cells:81027 
+UPDATED:	Tables:5 	|	 Rows:264 	|	 Cells:326 
+ERRORS:		0 
+RUNTIME:	0.357500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""iparke_bd""
+	UPDATE DB_USER ""iparke_admin""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:30:32 - RUNTIME: 0.3908 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

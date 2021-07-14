@@ -1,0 +1,124 @@
+/*
+ Theme Name:   Applay Child
+ Template:     applay
+*/
+
+/* CORRECCIONES PARA APP*/
+
+body {
+    background: #eee;
+}
+
+.page-id-3878 #wrap>header,
+/*home*/
+
+.page-id-3876 #wrap>header,
+/*start*/
+
+.page-id-3745 #wrap>header,
+/*inicio-sesion*/
+
+.page-id-2846 #wrap>header,
+/*login*/
+
+.page-id-3755 #wrap>header,
+/*registro*/
+
+#wrap>.page-heading, #wrap>footer {
+    display: none !important;
+}
+
+.page-id-3876 .container, .page-id-3878 .container {
+    width: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page-id-3878 .container>.content-pad-4x, .page-id-3876 .container>.content-pad-4x {
+    padding: 0 !important;
+}
+
+.content-pad-4x {
+    padding-top: 60px !important;
+}
+
+.page-id-2846 div[id*="gb-widget-"], .page-id-3878 div[id*="gb-widget-"], .page-id-3755 div[id*="gb-widget-"], .page-id-3745 div[id*="gb-widget-"], .page-id-3876 div[id*="gb-widget-"] {
+    display: none !important;
+}
+
+#main-nav .navbar {
+    height: 50px !important;
+    min-height: 50px !important;
+}
+
+#main-nav .navbar .logo img {
+    height: 30px;
+}
+
+#main-nav .navbar .logo {
+    padding: 8px;
+}
+
+header .mobile-menu-toggle {
+    margin-top: -20px !important;
+}
+
+.iparke {
+    padding: 10px;
+}
+
+.iparke form input[type='text'], .iparke form input[type='password'], .iparke form input[type='email'], .iparke form input[type='number'], .iparke form textarea, .iparke form button, .iparke form select {
+    width: 100%;
+    margin-bottom: 10px;
+    border: #a7a7a7 1px solid;
+    border-radius: 3px;
+}
+
+.logo {
+    line-height: 30px !important;
+}
+
+#main-nav {
+    height: 50px !important;
+}
+
+#main-nav .navbar {
+    height: 50px !important;
+}
+
+#main-nav .navbar .logo {
+    height: 45px;
+}
+
+#body {
+    height: 100vh;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #00a0bf;
+    border-color: #00a0bf;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #017b92;
+    border-color: #017b92;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #6047c7;
+    border-color: #6047c7;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #3e2e80;
+    border-color: #3e2e80;
+}
+
+/* CAMBIOS */
+#um-submit-btn {
+    background-color: #f07647;
+}

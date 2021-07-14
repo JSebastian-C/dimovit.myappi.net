@@ -1,0 +1,2767 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Applay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 05:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: 404.php:2
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:24 functions.php:292
+msgid "404"
+msgstr ""
+
+#: 404.php:35
+msgid "Try a search..."
+msgstr ""
+
+#: attachment.php:64
+msgid "Previous"
+msgstr ""
+
+#: attachment.php:69
+msgid "Next"
+msgstr ""
+
+#: comments.php:20 comments.php:23 comments.php:23 comments.php:23
+msgid "Your comment ..."
+msgstr ""
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: footer.php:35 page-templates/tpl-demo-menu-style-off-canvas.php:189
+msgid "Go to top"
+msgstr ""
+
+#: footer.php:43 page-templates/tpl-demo-menu-style-off-canvas.php:194
+msgid "Applay WordPress Theme by Leafcolor &copy;"
+msgstr ""
+
+#: footer.php:99 functions.php:287 page-templates/tpl-demo-classic.php:104
+#: page-templates/tpl-demo-menu-no-des.php:94
+#: page-templates/tpl-demo-menu-style-default-light.php:92
+#: page-templates/tpl-demo-menu-style-off-canvas.php:94
+#: page-templates/tpl-demo-menu-style-off-canvas.php:249
+#: templates/header/header-navigation.php:83
+msgid "Home"
+msgstr ""
+
+#: footer.php:112 page-templates/tpl-demo-menu-style-off-canvas.php:262
+msgid "TYPE AND HIT ENTER..."
+msgstr ""
+
+#: functions.php:79
+msgid "Primary Menus"
+msgstr ""
+
+#: functions.php:80
+msgid "Off Canvas Menus"
+msgstr ""
+
+#: functions.php:181
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:183
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:190
+msgid "Pathway Sidebar"
+msgstr ""
+
+#: functions.php:192
+msgid "Replace Pathway (Breadcrumbs) with your widgets"
+msgstr ""
+
+#: functions.php:199
+msgid "Front Page Sidebar "
+msgstr ""
+
+#: functions.php:201
+msgid "Used in Front Page templates only"
+msgstr ""
+
+#: functions.php:208
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: functions.php:217
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:227
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:249
+msgid "SEARCH"
+msgstr ""
+
+#: functions.php:254
+msgid "Search Result: "
+msgstr ""
+
+#: functions.php:262
+msgid "Author: "
+msgstr ""
+
+#: functions.php:264 functions.php:266 functions.php:268
+msgid "Archives for "
+msgstr ""
+
+#: functions.php:272 functions.php:317
+msgid "Blog"
+msgstr ""
+
+#: functions.php:289
+msgid "Search Results for"
+msgstr ""
+
+#: functions.php:290
+msgid "Tag"
+msgstr ""
+
+#: functions.php:291 templates/single/content-single.php:35
+#: woocommerce/single-product/title.php:40
+#: plugins/applay-portfolio/views/single-portfolio.php:118
+#: plugins/applay-portfolio/views/single-portfolio.php:186
+#: plugins/applay-shortcodes/meta/post-metadata.php:486
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:214
+#: plugins/applay-shortcodes/shortcodes/blog.php:167
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:83
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:82
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:174
+msgid "Author"
+msgstr ""
+
+#: functions.php:437
+msgid "Page"
+msgstr ""
+
+#: functions.php:495
+msgid "Default (In container)"
+msgstr ""
+
+#: functions.php:496
+msgid "Full-width (Side to side)"
+msgstr ""
+
+#: functions.php:498
+msgid ""
+"Choose row width (In page template Front Page, this is used for row's "
+"content)"
+msgstr ""
+
+#: functions.php:512 plugins/applay-shortcodes/shortcodes/button.php:91
+#: plugins/applay-shortcodes/shortcodes/button.php:103
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:134
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:111
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:136
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:80
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:138
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:510
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:562
+msgid "No"
+msgstr ""
+
+#: functions.php:513 plugins/applay-shortcodes/shortcodes/button.php:92
+#: plugins/applay-shortcodes/shortcodes/button.php:104
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:133
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:112
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:137
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:81
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:143
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:505
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:557
+msgid "Yes"
+msgstr ""
+
+#: functions.php:515
+msgid "Enable parallax effect for row's background"
+msgstr ""
+
+#: functions.php:529
+msgid "Default"
+msgstr ""
+
+#: functions.php:530
+msgid "Dark"
+msgstr ""
+
+#: functions.php:532
+msgid ""
+"Choose row scheme (in Dark, default text, buttons will have white color)"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:60
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:68
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: inc/option-tree-hook.php:780
+#: plugins/applay-shortcodes/meta/post-metadata.php:108
+msgid "Device for displaying Screenshots"
+msgstr ""
+
+#: inc/option-tree-hook.php:789
+#: plugins/applay-shortcodes/meta/post-metadata.php:121
+msgid "Default Gallery"
+msgstr ""
+
+#: inc/option-tree-hook.php:794 plugins/applay-showcase/iapp-showcase.php:196
+#: plugins/applay-showcase/iapp-showcase.php:605
+#: plugins/applay-shortcodes/meta/post-metadata.php:126
+msgid "iPhone 6"
+msgstr ""
+
+#: inc/option-tree-hook.php:799 plugins/applay-showcase/iapp-showcase.php:201
+#: plugins/applay-showcase/iapp-showcase.php:610
+#: plugins/applay-shortcodes/meta/post-metadata.php:131
+msgid "iPhone 6 Plus"
+msgstr ""
+
+#: inc/option-tree-hook.php:804 plugins/applay-showcase/iapp-showcase.php:206
+#: plugins/applay-showcase/iapp-showcase.php:615
+#: plugins/applay-shortcodes/meta/post-metadata.php:136
+msgid "iPhone 5S"
+msgstr ""
+
+#: inc/option-tree-hook.php:809 plugins/applay-showcase/iapp-showcase.php:211
+#: plugins/applay-showcase/iapp-showcase.php:620
+#: plugins/applay-shortcodes/meta/post-metadata.php:141
+msgid "iPhone 5C"
+msgstr ""
+
+#: inc/option-tree-hook.php:814 plugins/applay-showcase/iapp-showcase.php:216
+#: plugins/applay-showcase/iapp-showcase.php:625
+#: plugins/applay-shortcodes/meta/post-metadata.php:146
+msgid "iPhone 4S"
+msgstr ""
+
+#: inc/option-tree-hook.php:819 plugins/applay-showcase/iapp-showcase.php:221
+#: plugins/applay-showcase/iapp-showcase.php:630
+#: plugins/applay-shortcodes/meta/post-metadata.php:151
+msgid "Nexus 5"
+msgstr ""
+
+#: inc/option-tree-hook.php:824 plugins/applay-showcase/iapp-showcase.php:226
+#: plugins/applay-showcase/iapp-showcase.php:635
+#: plugins/applay-shortcodes/meta/post-metadata.php:156
+msgid "Lumia 920"
+msgstr ""
+
+#: inc/option-tree-hook.php:829 plugins/applay-showcase/iapp-showcase.php:231
+#: plugins/applay-showcase/iapp-showcase.php:640
+#: plugins/applay-shortcodes/meta/post-metadata.php:161
+msgid "Galaxy S5"
+msgstr ""
+
+#: inc/option-tree-hook.php:834 plugins/applay-showcase/iapp-showcase.php:236
+#: plugins/applay-showcase/iapp-showcase.php:645
+#: plugins/applay-shortcodes/meta/post-metadata.php:166
+msgid "HTC One"
+msgstr ""
+
+#: inc/option-tree-hook.php:839 plugins/applay-showcase/iapp-showcase.php:241
+#: plugins/applay-showcase/iapp-showcase.php:650
+#: plugins/applay-shortcodes/meta/post-metadata.php:171
+msgid "iPad Mini"
+msgstr ""
+
+#: inc/option-tree-hook.php:844 plugins/applay-showcase/iapp-showcase.php:246
+#: plugins/applay-showcase/iapp-showcase.php:655
+#: plugins/applay-shortcodes/meta/post-metadata.php:176
+msgid "Macbook Air"
+msgstr ""
+
+#: inc/option-tree-hook.php:849 plugins/applay-showcase/iapp-showcase.php:251
+#: plugins/applay-showcase/iapp-showcase.php:660
+#: plugins/applay-shortcodes/meta/post-metadata.php:181
+msgid "Macbook Pro"
+msgstr ""
+
+#: inc/option-tree-hook.php:854 plugins/applay-showcase/iapp-showcase.php:256
+#: plugins/applay-showcase/iapp-showcase.php:665
+#: plugins/applay-shortcodes/meta/post-metadata.php:186
+msgid "Apple Watch"
+msgstr ""
+
+#: inc/option-tree-hook.php:862 inc/option-tree-hook.php:889
+#: inc/option-tree-hook.php:915 inc/option-tree-hook.php:941
+#: inc/option-tree-hook.php:977 inc/option-tree-hook.php:1013
+#: inc/option-tree-hook.php:1034 inc/option-tree-hook.php:1055
+#: plugins/applay-showcase/iapp-showcase.php:264
+#: plugins/applay-showcase/iapp-showcase.php:290
+#: plugins/applay-showcase/iapp-showcase.php:315
+#: plugins/applay-showcase/iapp-showcase.php:340
+#: plugins/applay-showcase/iapp-showcase.php:375
+#: plugins/applay-showcase/iapp-showcase.php:410
+#: plugins/applay-showcase/iapp-showcase.php:430
+#: plugins/applay-showcase/iapp-showcase.php:450
+#: plugins/applay-showcase/iapp-showcase.php:672
+#: plugins/applay-showcase/iapp-showcase.php:699
+#: plugins/applay-showcase/iapp-showcase.php:726
+#: plugins/applay-showcase/iapp-showcase.php:753
+#: plugins/applay-showcase/iapp-showcase.php:788
+#: plugins/applay-showcase/iapp-showcase.php:823
+#: plugins/applay-showcase/iapp-showcase.php:843
+#: plugins/applay-showcase/iapp-showcase.php:863
+#: plugins/applay-shortcodes/meta/post-metadata.php:194
+#: plugins/applay-shortcodes/meta/post-metadata.php:220
+#: plugins/applay-shortcodes/meta/post-metadata.php:245
+#: plugins/applay-shortcodes/meta/post-metadata.php:270
+#: plugins/applay-shortcodes/meta/post-metadata.php:305
+#: plugins/applay-shortcodes/meta/post-metadata.php:340
+#: plugins/applay-shortcodes/meta/post-metadata.php:360
+#: plugins/applay-shortcodes/meta/post-metadata.php:380
+msgid "Device color"
+msgstr ""
+
+#: inc/option-tree-hook.php:863 inc/option-tree-hook.php:890
+#: inc/option-tree-hook.php:916 inc/option-tree-hook.php:942
+#: inc/option-tree-hook.php:1014 inc/option-tree-hook.php:1035
+#: inc/option-tree-hook.php:1056 plugins/applay-showcase/iapp-showcase.php:265
+#: plugins/applay-showcase/iapp-showcase.php:291
+#: plugins/applay-showcase/iapp-showcase.php:316
+#: plugins/applay-showcase/iapp-showcase.php:341
+#: plugins/applay-showcase/iapp-showcase.php:376
+#: plugins/applay-showcase/iapp-showcase.php:411
+#: plugins/applay-showcase/iapp-showcase.php:431
+#: plugins/applay-showcase/iapp-showcase.php:451
+#: plugins/applay-showcase/iapp-showcase.php:673
+#: plugins/applay-showcase/iapp-showcase.php:700
+#: plugins/applay-showcase/iapp-showcase.php:727
+#: plugins/applay-showcase/iapp-showcase.php:754
+#: plugins/applay-showcase/iapp-showcase.php:789
+#: plugins/applay-showcase/iapp-showcase.php:824
+#: plugins/applay-showcase/iapp-showcase.php:844
+#: plugins/applay-showcase/iapp-showcase.php:864
+#: plugins/applay-shortcodes/meta/post-metadata.php:195
+#: plugins/applay-shortcodes/meta/post-metadata.php:221
+#: plugins/applay-shortcodes/meta/post-metadata.php:246
+#: plugins/applay-shortcodes/meta/post-metadata.php:271
+#: plugins/applay-shortcodes/meta/post-metadata.php:306
+#: plugins/applay-shortcodes/meta/post-metadata.php:341
+#: plugins/applay-shortcodes/meta/post-metadata.php:361
+#: plugins/applay-shortcodes/meta/post-metadata.php:381
+msgid "Choose device's color style"
+msgstr ""
+
+#: inc/option-tree-hook.php:871 inc/option-tree-hook.php:898
+#: inc/option-tree-hook.php:924 inc/option-tree-hook.php:1022
+#: inc/option-tree-hook.php:1043 plugins/applay-showcase/iapp-showcase.php:272
+#: plugins/applay-showcase/iapp-showcase.php:298
+#: plugins/applay-showcase/iapp-showcase.php:323
+#: plugins/applay-showcase/iapp-showcase.php:418
+#: plugins/applay-showcase/iapp-showcase.php:438
+#: plugins/applay-showcase/iapp-showcase.php:682
+#: plugins/applay-showcase/iapp-showcase.php:709
+#: plugins/applay-showcase/iapp-showcase.php:736
+#: plugins/applay-showcase/iapp-showcase.php:831
+#: plugins/applay-showcase/iapp-showcase.php:851
+#: plugins/applay-shortcodes/meta/post-metadata.php:202
+#: plugins/applay-shortcodes/meta/post-metadata.php:228
+#: plugins/applay-shortcodes/meta/post-metadata.php:253
+#: plugins/applay-shortcodes/meta/post-metadata.php:348
+#: plugins/applay-shortcodes/meta/post-metadata.php:368
+msgid "Silver"
+msgstr ""
+
+#: inc/option-tree-hook.php:876 inc/option-tree-hook.php:903
+#: inc/option-tree-hook.php:929 inc/option-tree-hook.php:986
+#: inc/option-tree-hook.php:1027 inc/option-tree-hook.php:1048
+#: inc/option-tree-hook.php:1069 plugins/applay-showcase/iapp-showcase.php:277
+#: plugins/applay-showcase/iapp-showcase.php:303
+#: plugins/applay-showcase/iapp-showcase.php:328
+#: plugins/applay-showcase/iapp-showcase.php:383
+#: plugins/applay-showcase/iapp-showcase.php:423
+#: plugins/applay-showcase/iapp-showcase.php:443
+#: plugins/applay-showcase/iapp-showcase.php:463
+#: plugins/applay-showcase/iapp-showcase.php:687
+#: plugins/applay-showcase/iapp-showcase.php:714
+#: plugins/applay-showcase/iapp-showcase.php:741
+#: plugins/applay-showcase/iapp-showcase.php:796
+#: plugins/applay-showcase/iapp-showcase.php:836
+#: plugins/applay-showcase/iapp-showcase.php:856
+#: plugins/applay-showcase/iapp-showcase.php:876
+#: plugins/applay-shortcodes/meta/post-metadata.php:207
+#: plugins/applay-shortcodes/meta/post-metadata.php:233
+#: plugins/applay-shortcodes/meta/post-metadata.php:258
+#: plugins/applay-shortcodes/meta/post-metadata.php:313
+#: plugins/applay-shortcodes/meta/post-metadata.php:353
+#: plugins/applay-shortcodes/meta/post-metadata.php:373
+#: plugins/applay-shortcodes/meta/post-metadata.php:393
+msgid "Black"
+msgstr ""
+
+#: inc/option-tree-hook.php:881 inc/option-tree-hook.php:908
+#: inc/option-tree-hook.php:934 plugins/applay-showcase/iapp-showcase.php:282
+#: plugins/applay-showcase/iapp-showcase.php:308
+#: plugins/applay-showcase/iapp-showcase.php:333
+#: plugins/applay-showcase/iapp-showcase.php:692
+#: plugins/applay-showcase/iapp-showcase.php:719
+#: plugins/applay-showcase/iapp-showcase.php:746
+#: plugins/applay-shortcodes/meta/post-metadata.php:212
+#: plugins/applay-shortcodes/meta/post-metadata.php:238
+#: plugins/applay-shortcodes/meta/post-metadata.php:263
+msgid "Gold"
+msgstr ""
+
+#: inc/option-tree-hook.php:950 plugins/applay-showcase/iapp-showcase.php:348
+#: plugins/applay-showcase/iapp-showcase.php:761
+#: plugins/applay-shortcodes/meta/post-metadata.php:278
+msgid "Green"
+msgstr ""
+
+#: inc/option-tree-hook.php:955 inc/option-tree-hook.php:991
+#: inc/option-tree-hook.php:1064 plugins/applay-showcase/iapp-showcase.php:353
+#: plugins/applay-showcase/iapp-showcase.php:388
+#: plugins/applay-showcase/iapp-showcase.php:458
+#: plugins/applay-showcase/iapp-showcase.php:766
+#: plugins/applay-showcase/iapp-showcase.php:801
+#: plugins/applay-showcase/iapp-showcase.php:871
+#: plugins/applay-shortcodes/meta/post-metadata.php:283
+#: plugins/applay-shortcodes/meta/post-metadata.php:318
+#: plugins/applay-shortcodes/meta/post-metadata.php:388
+msgid "White"
+msgstr ""
+
+#: inc/option-tree-hook.php:960 inc/option-tree-hook.php:1001
+#: plugins/applay-showcase/iapp-showcase.php:358
+#: plugins/applay-showcase/iapp-showcase.php:398
+#: plugins/applay-showcase/iapp-showcase.php:771
+#: plugins/applay-showcase/iapp-showcase.php:811
+#: plugins/applay-shortcodes/meta/post-metadata.php:288
+#: plugins/applay-shortcodes/meta/post-metadata.php:328
+msgid "Red"
+msgstr ""
+
+#: inc/option-tree-hook.php:965 inc/option-tree-hook.php:996
+#: plugins/applay-showcase/iapp-showcase.php:363
+#: plugins/applay-showcase/iapp-showcase.php:393
+#: plugins/applay-showcase/iapp-showcase.php:776
+#: plugins/applay-showcase/iapp-showcase.php:806
+#: plugins/applay-shortcodes/meta/post-metadata.php:293
+#: plugins/applay-shortcodes/meta/post-metadata.php:323
+msgid "Yellow"
+msgstr ""
+
+#: inc/option-tree-hook.php:970 inc/option-tree-hook.php:1006
+#: plugins/applay-showcase/iapp-showcase.php:368
+#: plugins/applay-showcase/iapp-showcase.php:403
+#: plugins/applay-showcase/iapp-showcase.php:781
+#: plugins/applay-showcase/iapp-showcase.php:816
+#: plugins/applay-shortcodes/meta/post-metadata.php:298
+#: plugins/applay-shortcodes/meta/post-metadata.php:333
+msgid "Blue"
+msgstr ""
+
+#: inc/option-tree-hook.php:978
+msgid "Choose devide's color style"
+msgstr ""
+
+#: inc/option-tree-hook.php:1076 plugins/applay-showcase/iapp-showcase.php:470
+#: plugins/applay-showcase/iapp-showcase.php:883
+#: plugins/applay-shortcodes/meta/post-metadata.php:400
+msgid "Device Screen Orientation"
+msgstr ""
+
+#: inc/option-tree-hook.php:1085 plugins/applay-showcase/iapp-showcase.php:479
+#: plugins/applay-showcase/iapp-showcase.php:892
+#: plugins/applay-shortcodes/meta/post-metadata.php:409
+msgid "Portrait"
+msgstr ""
+
+#: inc/option-tree-hook.php:1090 plugins/applay-showcase/iapp-showcase.php:484
+#: plugins/applay-showcase/iapp-showcase.php:897
+#: plugins/applay-shortcodes/meta/post-metadata.php:414
+msgid "Landscape"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page"
+msgstr ""
+
+#. Name of the template
+msgid "Demo Classic Style"
+msgstr ""
+
+#: page-templates/tpl-demo-classic.php:67
+msgid "Demo Classic"
+msgstr ""
+
+#: page-templates/tpl-demo-classic.php:104
+#: page-templates/tpl-demo-menu-no-des.php:94
+#: page-templates/tpl-demo-menu-style-default-light.php:92
+#: page-templates/tpl-demo-menu-style-off-canvas.php:94
+#: templates/header/header-navigation.php:83
+msgid "Home page"
+msgstr ""
+
+#: page-templates/tpl-demo-classic.php:110
+#: page-templates/tpl-demo-menu-no-des.php:100
+#: page-templates/tpl-demo-menu-style-default-light.php:98
+#: page-templates/tpl-demo-menu-style-off-canvas.php:100
+#: templates/header/header-navigation.php:89
+msgid "Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Demo menu no description"
+msgstr ""
+
+#. Name of the template
+#: page-templates/tpl-demo-menu-no-des.php:57
+#: page-templates/tpl-demo-menu-style-default-light.php:57
+msgid "Demo menu style Light"
+msgstr ""
+
+#. Name of the template
+msgid "Demo menu style off canvas"
+msgstr ""
+
+#: page-templates/tpl-demo-menu-style-off-canvas.php:57
+msgid "Demo Menu style off canvas"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61 inc/starter/twenty-core.php:194
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65 inc/starter/twenty-core.php:166
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:216
+#: plugins/applay-shortcodes/shortcodes/blog.php:169
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:85
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:84
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:176
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:106
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67 inc/starter/twenty-core.php:168
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Your Message"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: inc/starter/functions-admin.php:13 inc/starter/functions-admin.php:19
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:213
+#: plugins/applay-shortcodes/shortcodes/blog.php:166
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:82
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:81
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:173
+msgid "ID"
+msgstr ""
+
+#: inc/starter/functions-admin.php:14
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/starter/leaf-core.php:48
+msgid "Install Required &amp; Recommended Plugins"
+msgstr ""
+
+#: inc/starter/leaf-core.php:49
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/starter/leaf-core.php:50
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/starter/leaf-core.php:51
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/starter/leaf-core.php:52
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:53
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:54
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:55
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:56
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:57
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:58
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:59
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:60
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:61
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/starter/leaf-core.php:62
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/starter/leaf-core.php:63
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/starter/leaf-core.php:64
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/starter/twenty-core.php:53
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/starter/twenty-core.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr ""
+
+#: inc/starter/twenty-core.php:78
+msgid "Pingback:"
+msgstr ""
+
+#: inc/starter/twenty-core.php:78
+msgid "(Edit)"
+msgstr ""
+
+#: inc/starter/twenty-core.php:99
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/starter/twenty-core.php:107
+msgid "Reply"
+msgstr ""
+
+#. 1: date, 2: time
+#: inc/starter/twenty-core.php:114
+#, php-format
+msgid "%1$s  at %2$s "
+msgstr ""
+
+#: inc/starter/twenty-core.php:117
+msgid "Edit"
+msgstr ""
+
+#: inc/starter/twenty-core.php:136
+msgid "Your Name *"
+msgstr ""
+
+#: inc/starter/twenty-core.php:137
+msgid "Your Email *"
+msgstr ""
+
+#: inc/starter/twenty-core.php:138
+msgid "Your Website"
+msgstr ""
+
+#: inc/starter/twenty-core.php:170
+msgid "Website"
+msgstr ""
+
+#: inc/starter/twenty-core.php:174
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: inc/starter/twenty-core.php:186 templates/single/content-single.php:72
+#: plugins/applay-portfolio/views/single-portfolio.php:223
+msgid "Comment"
+msgstr ""
+
+#: inc/starter/twenty-core.php:187
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/starter/twenty-core.php:188
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: inc/starter/twenty-core.php:189
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/starter/twenty-core.php:193
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/starter/twenty-core.php:195
+msgid "Cancel reply"
+msgstr ""
+
+#: inc/starter/twenty-core.php:196
+msgid "Submit &rsaquo;"
+msgstr ""
+
+#. used between list items, there is a space after the comma.
+#: inc/starter/twenty-core.php:372 inc/starter/twenty-core.php:375
+msgid ", "
+msgstr ""
+
+#: inc/starter/twenty-core.php:386
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#. 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
+#: inc/starter/twenty-core.php:392
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-"
+"author\"> by %4$s</span>."
+msgstr ""
+
+#: inc/starter/twenty-core.php:394
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by "
+"%4$s</span>."
+msgstr ""
+
+#: inc/starter/twenty-core.php:396
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: plugins/applay-member/post-type.php:7 plugins/applay-member/post-type.php:8
+msgid "Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:9 plugins/applay-member/post-type.php:10
+msgid "Add New Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:11
+msgid "Edit Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:12
+msgid "New Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:13
+msgid "View Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:14
+msgid "Search Member"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:15
+msgid "No Member found"
+msgstr ""
+
+#: plugins/applay-member/post-type.php:16
+msgid "No Member found in Trash"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:159
+msgid "Animation Delay"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:161
+msgid "Enter Animation Delay in second (ex: 1.5)"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:321
+msgid "Your app submission has been approved"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:322
+msgid "Your app "
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:322
+msgid "has been approved. You can see it here"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:334
+msgid "Share on Facebook"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:337
+msgid "Share on Twitter"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:340
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:343
+msgid "Share on Tumblr"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:346
+msgid "Share on Google Plus"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:349
+msgid "Pin this"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:352
+msgid "Email this"
+msgstr ""
+
+#: plugins/applay-shortcodes/iapp-shortcodes.php:455
+msgid "Please choose a category"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase-shortcode.php:29
+msgid "Choose a Showcase"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase-shortcode.php:51
+msgid "Showcase"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase-shortcode.php:54
+msgid "Choose a showcase"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase-shortcode.php:58
+msgid "CSS class"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:129
+msgid "Style"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:143
+msgid "Listing"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:148
+msgid "Hero"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:153
+msgid "Features Carousel"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:158
+msgid "Screen Layers"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:169
+msgid "Add device for Hero or Listing section"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:175
+#: plugins/applay-showcase/iapp-showcase.php:583
+msgid "Device"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:186
+#: plugins/applay-showcase/iapp-showcase.php:595
+msgid "iPhone X"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:191
+#: plugins/applay-showcase/iapp-showcase.php:600
+msgid "Galaxy Note 8"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:471
+#: plugins/applay-showcase/iapp-showcase.php:884
+#: plugins/applay-shortcodes/meta/post-metadata.php:401
+msgid "Not affect on some devices"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:490
+msgid "Screen Content"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:493
+msgid "Choose Screen Content"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:499
+msgid "Single Image"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:504
+msgid "Images Carousel"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:509
+msgid "Iframe"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:514
+msgid "Custom Content text"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:520
+msgid "Image"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:530
+msgid "Carousel"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:533
+msgid "Create gallery images for carousel"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:540
+msgid "Carousel Autoplay Timeout"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:543
+msgid ""
+"Enter miliseconds timeout for autoplay. (Default is 6000, enter 0 for no "
+"auto)"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:550
+msgid "Iframe URL"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:553
+msgid "Enter iframe URL"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:560
+msgid "Custom Content Text"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:570
+#: plugins/applay-showcase/iapp-showcase.php:954
+#: plugins/applay-shortcodes/meta/post-metadata.php:477
+msgid "URL"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:573
+msgid "Destination URL when click on device content"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:586
+msgid "Choose device to display features carousel"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:903
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:906
+msgid ""
+"Enter miliseconds timeout for autoplay. (Default is 3500, enter 0 for no "
+"auto)"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:917
+msgid "Add Screen Item for Features Carousel or Screen Layers section"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:923
+msgid "Feature Icon"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:926
+msgid ""
+"Enter Font Awesome icon class (Ex: fa-star) (Only used for Features Carousel)"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:933
+msgid "Feature Description"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:936
+msgid "Enter Feature's Description (Only used for Features Carousel)"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:943
+#: plugins/applay-shortcodes/meta/post-metadata.php:647
+msgid "Screen Image"
+msgstr ""
+
+#: plugins/applay-showcase/iapp-showcase.php:957
+msgid "Destination URL when click on screen (Optional)"
+msgstr ""
+
+#: templates/blog/loop-item.php:21
+msgid "DETAIL"
+msgstr ""
+
+#: templates/blog/loop-none.php:4
+msgid "Search"
+msgstr ""
+
+#: templates/blog/loop-none.php:11
+msgid "No results found"
+msgstr ""
+
+#: templates/blog/loop-none.php:12
+msgid "Click here to try another search"
+msgstr ""
+
+#: templates/header/header-heading.php:48
+#: templates/header/header-heading.php:57
+#: templates/header/header-heading.php:66
+msgid "Download from"
+msgstr ""
+
+#: templates/header/header-heading.php:49
+msgid "APP STORE"
+msgstr ""
+
+#: templates/header/header-heading.php:58
+msgid "PLAY STORE"
+msgstr ""
+
+#: templates/header/header-heading.php:67
+msgid "WINDOWS STORE"
+msgstr ""
+
+#: templates/header/header-heading.php:75
+msgid "Download"
+msgstr ""
+
+#: templates/header/header-heading.php:76
+msgid "INSTALLATION FILE"
+msgstr ""
+
+#: templates/single/content-single.php:17
+#: plugins/applay-portfolio/views/single-portfolio.php:168
+msgid "Pages:"
+msgstr ""
+
+#: templates/single/content-single.php:23
+#: plugins/applay-portfolio/views/single-portfolio.php:174
+msgid "Next page"
+msgstr ""
+
+#: templates/single/content-single.php:24
+#: plugins/applay-portfolio/views/single-portfolio.php:175
+msgid "Previous page"
+msgstr ""
+
+#: templates/single/content-single.php:44
+#: plugins/applay-portfolio/views/single-portfolio.php:195
+msgid "Published"
+msgstr ""
+
+#: templates/single/content-single.php:53
+#: plugins/applay-portfolio/views/single-portfolio.php:204
+msgid "Categories"
+msgstr ""
+
+#: templates/single/content-single.php:62
+#: plugins/applay-portfolio/views/single-portfolio.php:213
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:174
+#: plugins/applay-shortcodes/shortcodes/blog.php:127
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:36
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:42
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:134
+msgid "Tags"
+msgstr ""
+
+#: templates/single/content-single.php:73
+#: plugins/applay-portfolio/views/single-portfolio.php:224
+msgid "0 Comments"
+msgstr ""
+
+#: templates/single/content-single.php:73
+#: plugins/applay-portfolio/views/single-portfolio.php:224
+msgid "1 Comment"
+msgstr ""
+
+#: woocommerce/loop/rating.php:18
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:181
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:218
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:65
+msgid "From  "
+msgstr ""
+
+#: woocommerce/single-product/related.php:49
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:35
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/title.php:51
+#: plugins/applay-portfolio/views/single-portfolio.php:129
+#: plugins/applay-shortcodes/meta/post-metadata.php:495
+msgid "Release"
+msgstr ""
+
+#: woocommerce/single-product/title.php:62
+#: plugins/applay-portfolio/views/single-portfolio.php:140
+#: plugins/applay-shortcodes/meta/post-metadata.php:504
+msgid "Version"
+msgstr ""
+
+#: woocommerce/single-product/title.php:73
+#: plugins/applay-portfolio/views/single-portfolio.php:151
+#: plugins/applay-shortcodes/meta/post-metadata.php:513
+msgid "Requirement"
+msgstr ""
+
+#: plugins/applay-portfolio/views/single-portfolio.php:79
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:271
+msgid "SHARE"
+msgstr ""
+
+#: plugins/applay-portfolio/views/single-portfolio.php:80
+#: plugins/applay-shortcodes/shortcodes/blog.php:57
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:272
+msgid "View comments"
+msgstr ""
+
+#: plugins/applay-portfolio/views/single-portfolio.php:80
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:272
+msgid "COMMENTS"
+msgstr ""
+
+#: plugins/applay-portfolio/views/single-portfolio.php:159
+#: woocommerce/single-product/add-to-cart/simple.php:61
+msgid "Download now"
+msgstr ""
+
+#: plugins/applay-shortcodes/fetch/fetch.php:246
+#, php-format
+msgid ""
+"Error retrieving a thumbnail from the URL <a href=\"%1$s\">%1$s</a> using "
+"<code>wp_remote_get()</code><br />If opening that URL in your web browser "
+"returns anything else than an error page, the problem may be related to your "
+"web server and might be something your host administrator can solve."
+msgstr ""
+
+#: plugins/applay-shortcodes/fetch/fetch.php:246
+msgid "Error Details: "
+msgstr ""
+
+#: plugins/applay-shortcodes/fetch/fetch.php:270
+msgid "Unsupported MIME type:"
+msgstr ""
+
+#: plugins/applay-shortcodes/fetch/fetch.php:286
+msgid "Error uploading image data:"
+msgstr ""
+
+#: plugins/applay-shortcodes/fetch/playStoreApi.php:871
+msgid "Free"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:20
+#: plugins/applay-shortcodes/meta/post-metadata.php:20
+#: plugins/applay-shortcodes/meta/post-metadata.php:565
+#: plugins/applay-shortcodes/meta/post-metadata.php:671
+msgid "Sidebar"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:21
+msgid "Select \"Default\" to use Theme Options or Front page fullwidth"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:49
+msgid "Header Content"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:50
+msgid "Enter header content or shortcodes"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:56
+#: plugins/applay-shortcodes/meta/post-metadata.php:50
+#: plugins/applay-shortcodes/meta/post-metadata.php:595
+#: plugins/applay-shortcodes/meta/post-metadata.php:701
+msgid "Content Padding"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/page-metadata.php:57
+#: plugins/applay-shortcodes/meta/post-metadata.php:51
+#: plugins/applay-shortcodes/meta/post-metadata.php:596
+#: plugins/applay-shortcodes/meta/post-metadata.php:702
+msgid "Enable default top and bottom padding for content (30px)"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:21
+#: plugins/applay-shortcodes/meta/post-metadata.php:566
+#: plugins/applay-shortcodes/meta/post-metadata.php:614
+#: plugins/applay-shortcodes/meta/post-metadata.php:672
+msgid "Select \"Default\" to use settings in Theme Options"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:80
+#: plugins/applay-shortcodes/meta/post-metadata.php:463
+#: plugins/applay-shortcodes/meta/post-metadata.php:527
+#: plugins/applay-shortcodes/shortcodes/button.php:67
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:76
+msgid "Icon"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:81
+msgid "Upload App Icon"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:89
+msgid "Header Banner"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:90
+msgid "Upload App Banner Image"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:98
+msgid "Header Banner Darkness (Optional)"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:99
+msgid "Adjust Banner Darkness level % (To make title readable)"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:116
+msgid "Default theme options"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:422
+msgid "<i class=\"fa fa-apple\"></i> iOS Appstore URL"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:423
+msgid "Enter Appstore URL if available"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:431
+msgid "<i class=\"fa fa-google\"></i> Android Google Play Store URL"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:432
+msgid "Enter Play Store URL if available"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:440
+msgid "<i class=\"fa fa-windows\"></i> Windows Phone Store URL"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:441
+msgid "Enter Windows Phone Store URL if available"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:449
+msgid "Installation File"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:450
+msgid "Upload or enter your app download link"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:460
+msgid "Add Custom Store Links"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:466
+msgid "Enter Font Awesome icon class (Ex: fa-apple)"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:470
+msgid "Download text"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:473
+msgid "Ex: Download from"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:487
+msgid "App's Author name"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:496
+msgid "Release Date"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:505
+msgid "Current App's Version"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:514
+msgid "App's Requirement"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:524
+msgid "Add Custom Meta"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:530
+msgid "Enter Font Awesome icon class (Ex: fa-check-square-o)"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:534
+msgid "Value"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:537
+msgid "Enter value of meta"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:544
+msgid "Custom Screenshot Images"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:545
+msgid "Enter custom app screenshots url, each image url per line"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:604
+msgid "Disable Woocommerce Layout"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:605
+msgid "Enable only if you want to build your own product content"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:613
+msgid "Product style"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:720
+msgid "<strong>Enable Auto Fetch</strong>"
+msgstr ""
+
+#: plugins/applay-shortcodes/meta/post-metadata.php:721
+msgid "Turn-off here if you do not want to auto-fetch data after save/edit"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:147
+msgid "Columns Number"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:150
+msgid "From 1-6 (Default is 4)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:156
+msgid "Listing Style"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:159
+msgid "Modern (Thumbnail with App Icon)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:160
+msgid "Classic (Only Icon or Thumbnail)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:167
+#: plugins/applay-shortcodes/shortcodes/blog.php:120
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:29
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:35
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:127
+msgid "Category"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:170
+#: plugins/applay-shortcodes/shortcodes/blog.php:123
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:32
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:38
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:130
+msgid "List of cat ID (or slug), separated by a comma"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:177
+#: plugins/applay-shortcodes/shortcodes/blog.php:130
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:39
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:45
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:137
+msgid "list of tags, separated by a comma"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:181
+#: plugins/applay-shortcodes/shortcodes/blog.php:134
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:43
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:49
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:141
+msgid "IDs"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:184
+#: plugins/applay-shortcodes/shortcodes/blog.php:137
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:46
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:52
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:144
+msgid "Specify post IDs to retrieve"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:188
+#: plugins/applay-shortcodes/shortcodes/blog.php:141
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:50
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:56
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:148
+msgid "Count"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:191
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:53
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:59
+msgid "Number of posts to show. Default is 8"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:197
+#: plugins/applay-shortcodes/shortcodes/blog.php:150
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:66
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:65
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:157
+msgid "Order"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:200
+#: plugins/applay-shortcodes/shortcodes/blog.php:153
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:69
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:68
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:160
+msgid "DESC"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:201
+#: plugins/applay-shortcodes/shortcodes/blog.php:154
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:70
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:69
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:161
+msgid "ASC"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:209
+#: plugins/applay-shortcodes/shortcodes/blog.php:162
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:78
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:77
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:169
+msgid "Order by"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:212
+#: plugins/applay-shortcodes/shortcodes/blog.php:165
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:81
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:80
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:172
+msgid "Date"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:215
+#: plugins/applay-shortcodes/shortcodes/blog.php:168
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:84
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:83
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:175
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:113
+msgid "Title"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:217
+#: plugins/applay-shortcodes/shortcodes/blog.php:170
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:86
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:85
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:177
+msgid "Modified"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:218
+#: plugins/applay-shortcodes/shortcodes/blog.php:171
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:87
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:86
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:178
+msgid "Parent"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:219
+#: plugins/applay-shortcodes/shortcodes/blog.php:172
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:88
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:87
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:179
+msgid "Random"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:220
+#: plugins/applay-shortcodes/shortcodes/blog.php:173
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:89
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:88
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:180
+msgid "Comment count"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:221
+#: plugins/applay-shortcodes/shortcodes/blog.php:174
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:90
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:89
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:181
+msgid "Menu order"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:222
+#: plugins/applay-shortcodes/shortcodes/blog.php:175
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:91
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:90
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:182
+msgid "Meta value"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:223
+#: plugins/applay-shortcodes/shortcodes/blog.php:176
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:92
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:91
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:183
+msgid "Meta value num"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:224
+#: plugins/applay-shortcodes/shortcodes/blog.php:177
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:93
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:92
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:184
+msgid "Post__in"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:225
+#: plugins/applay-shortcodes/shortcodes/blog.php:178
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:94
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:93
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:185
+msgid "None"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:231
+#: plugins/applay-shortcodes/shortcodes/blog.php:184
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:100
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:99
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:191
+msgid "Meta key"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/app-woo.php:234
+#: plugins/applay-shortcodes/shortcodes/blog.php:187
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:103
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:102
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:194
+msgid "Name of meta key for ordering"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:57
+msgid "0 COMMENTS"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:57
+msgid "1 COMMENT"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:57
+msgid "% COMMENTS"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:64
+msgid "Read more"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:109
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:17
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:23
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:115
+msgid "Post Type"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:112
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:20
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:26
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:118
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:223
+msgid "Post"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:113
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:21
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:27
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:119
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:225
+msgid "Product"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:114
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:22
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:28
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:120
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:224
+msgid "Portfolio"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:116
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:136
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:25
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:31
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:123
+msgid "Choose post type"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:144
+msgid "Number of posts to show. Default is 4"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:193
+msgid "Show info"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:196
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:112
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:123
+msgid "Show"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/blog.php:197
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:113
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:124
+msgid "Hide"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:44
+msgid "Applay Button"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:53
+msgid "Button Text"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:60
+msgid "Button Link"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:70
+msgid "Font Awesome Icon (ex: fa-apple)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:76
+msgid "Button Size"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:79
+#: plugins/applay-shortcodes/shortcodes/heading.php:64
+msgid "Small"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:80
+#: plugins/applay-shortcodes/shortcodes/heading.php:63
+msgid "Big"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:88
+msgid "Solid Background"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:100
+msgid "Has arrow?"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:112
+msgid "Open Link in"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:115
+msgid "Curent Tab"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:116
+msgid "New Tab"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/button.php:124
+msgid "Button Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:19
+msgid "Days"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:19
+msgid "Hrs"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:19
+msgid "Mins"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:19
+msgid "Secs"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:85
+msgid "Year:"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:94
+msgid "Month"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:103
+msgid "Day"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:112
+msgid "Hour"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:121
+msgid "Minute"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:130
+msgid "Show Second?"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:142
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:131
+msgid "Background Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/countdown_clock.php:151
+msgid "Number Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:33
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:83
+msgid "Heading"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:44
+#: plugins/applay-shortcodes/shortcodes/heading.php:46
+msgid "Heading text"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:51
+msgid "Heading URL"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:54
+msgid "Optional"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:60
+msgid "Size"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:72
+msgid "Align"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:75
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:109
+msgid "Left"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:76
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:110
+msgid "Right"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/heading.php:77
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:111
+msgid "Center"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:90
+msgid "Link"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:97
+msgid "Content text"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:106
+msgid "Layout"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:119
+msgid "Icon Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/icon_box.php:128
+msgid "Icon Background Hover"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:23
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:29
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:121
+msgid "Attachment"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:57
+msgid "Visible items"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:60
+msgid "Number of items visible in Carousel. Default is 4"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:109
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:120
+msgid "Show extra info"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:194
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:231
+msgid "By "
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-carousel.php:195
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:232
+msgid "At "
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:14
+msgid "Grid Columns Number"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:17
+msgid "Default is 4"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:108
+msgid "Enable featured item"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:132
+msgid "Enable Gallery Popup"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:139
+msgid "Enable Gallery Popup when click on post thumbnail images"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:272
+msgid "COMMENT (1)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-grid.php:272
+msgid "COMMENTS (%)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:151
+msgid "Number of posts to show. Default is 5"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:198
+msgid "Auto play"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:201
+msgid ""
+"Auto play timeout miliseconds (Ex: 3000 for 3 seconds, or 0 for no autoplay)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:205
+msgid "Custom Max Height"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/post-slider.php:208
+msgid "Enter slider max height in number of px (ex: 600), default is auto"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:106
+msgid "Pricing Table"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:114
+msgid "Column Title"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:122
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:182
+msgid "CSS Class"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:138
+msgid "Price"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:146
+msgid "Price Text"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:155
+msgid "Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:165
+msgid "Row"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/pricing-table.php:174
+msgid "Row Content"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:65
+msgid "Testimonials"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:77
+msgid "Auto Scroll"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:83
+msgid "Auto scroll Testimonials"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:91
+msgid "Testimonial Item"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:99
+msgid "Avatar"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:102
+msgid "Avatar of client"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:116
+msgid "Title of client (Ex: CEO)"
+msgstr ""
+
+#: plugins/applay-shortcodes/shortcodes/testimonial.php:120
+msgid "Testimonial content"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:14
+msgid "App Latest Posts "
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:16
+msgid "App - Latest Posts "
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:213
+msgid "Title:"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:216
+msgid "Number of posts:"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:221
+msgid "Post type"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:229
+msgid "ID list show:"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:233
+msgid "Tags:"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/latest-post-type.php:238
+msgid "Categories:"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/widget_param.php:63
+msgid "Custom Variation"
+msgstr ""
+
+#: plugins/applay-shortcodes/widgets/widget_param.php:131
+msgid "Widget Style"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:23
+msgid "Demo Meta Box"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:30
+msgid "Conditions"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:35
+msgid "Show Gallery"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:38
+#, php-format
+msgid "Shows the Gallery when set to %s."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:45
+msgid "Congratulations, you created a gallery!"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:50
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:273
+msgid "Gallery"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:53
+#, php-format
+msgid "This is a Gallery option type. It displays when %s."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:57
+msgid "More Options"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:62
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:679
+msgid "Text"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:65
+msgid "This is a demo Text field."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:68
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:694
+msgid "Textarea"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-meta-boxes.php:71
+msgid "This is a demo Textarea field."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:33
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:42
+msgid "Option Types"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:34
+msgid "Help content goes here!"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:37
+msgid "Sidebar content goes here!"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:48
+msgid "Background"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:49
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme "
+"either dynamically via the CSS option type below or manually with %s. The "
+"Background option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:49
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:755
+msgid "and"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:63
+msgid "Border"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:64
+msgid ""
+"The Border option type is used to set width, unit, style, and color values."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:78
+msgid "Box Shadow"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:79
+#, php-format
+msgid ""
+"The Box Shadow option type is used to set %s, %s, %s, %s, %s, and %s values."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:93
+msgid "Category Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:94
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows "
+"the user to check multiple category IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:108
+msgid "Category Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:109
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows "
+"the user to select only one category ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:123
+msgid "Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:124
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to "
+"check multiple choices and will return that value as an array for use in a "
+"custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:150
+msgid "Colorpicker"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:151
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. "
+"Use it to modify the color of something in your theme."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:165
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:181
+msgid "CSS"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:182
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic "
+"CSS to your theme from within OptionTree. Unfortunately, due server "
+"limitations you will need to create a file named %s at the root level of "
+"your theme and change permissions using %s so the server can write to the "
+"file. I have had the most success setting this single file to %s but feel "
+"free to play around with permissions until everything is working. A good "
+"starting point is %s. When the server can save to the file, CSS will "
+"automatically be updated when you save your Theme Options."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:182
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means "
+"this option will automatically insert the value of %1$s into the %2$s when "
+"the Theme Options are saved."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:198
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:199
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It allows the user to "
+"check multiple post IDs for use in a custom function or loop. Requires at "
+"least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:213
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:214
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It will return a single "
+"post ID for use in a custom function or loop. Requires at least one valid "
+"%1$s in the %1$s field."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:228
+msgid "Date Picker"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:229
+msgid ""
+"The Date Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date when focus "
+"is given to the input field. The returned value is a date formatted string."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:243
+msgid "Date Time Picker"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:244
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field "
+"which displays a calendar pop-up that allow the user to pick any date and "
+"time when focus is given to the input field. The returned value is a date "
+"and time formatted string."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:258
+msgid "Dimension"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:259
+msgid "The Dimension option type is used to set width and height values."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:274
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment IDs."
+" You will need to create a front-end function to display the images in your "
+"theme."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:288
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:289
+#, php-format
+msgid ""
+"The Gallery option type can also be saved as a shortcode by adding %s to the "
+"class attribute. Using the Gallery option type in this manner will result in "
+"a better user experience as you're able to save the link, column, and order "
+"settings."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:303
+msgid "Google Fonts"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:304
+#, php-format
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google "
+"Web Fonts into the document %1$s. As well, once the option has been saved "
+"each font family will automatically be inserted into the %2$s array for the "
+"Typography option type. You can further modify the font stack by using the "
+"%3$s filter, which is passed the %4$s, %5$s, and %6$s parameters. The %6$s "
+"parameter is being passed from %7$s, so it will be the ID of a Typography "
+"option type. This will allow you to add additional web safe fonts to "
+"individual font families on an as-need basis."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:324
+msgid "JavaScript"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:325
+#, php-format
+msgid ""
+"The JavaScript option type is a textarea that uses the %s code editor to "
+"highlight your JavaScript and display errors as you type."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:339
+msgid "Link Color"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:340
+msgid "The Link Color option type is used to set all link color states."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:354
+msgid "List Item"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:355
+msgid ""
+"The List Item option type allows for a great deal of customization. You can "
+"add settings to the List Item and those settings will be displayed to the "
+"user when they add a new List Item. Typical use is for creating sliding "
+"content or blocks of code for custom layouts."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:369
+msgid "Content"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:385
+msgid "Measurement"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:386
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text "
+"input excepts a value and the select lets you choose the unit of measurement "
+"to add to that value. Currently the default units are %s, %s, %s, and %s. "
+"However, you can change them with the %s filter."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:400
+msgid "Numeric Slider"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:401
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a "
+"single numerical value for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:415
+msgid "On/Off"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:416
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn "
+"things on or off. The saved return value is either %s or %s."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:430
+msgid "Page Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:431
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the "
+"user to check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:445
+msgid "Page Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:446
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a "
+"single page ID for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:460
+msgid "Post Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:461
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the "
+"user to check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:475
+msgid "Post Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:476
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a "
+"single post ID for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:490
+msgid "Radio"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:491
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to "
+"choose one and will return that value as a string for use in a custom "
+"function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:515
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:567
+msgid "Maybe"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:522
+msgid "Radio Image"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:523
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can "
+"filter the image list using %s. As well, you can add your own custom images "
+"using the choices array."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:537
+msgid "Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:538
+msgid ""
+"The Select option type is used to list anything you want that would be "
+"chosen from a select list."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:552
+msgid "-- Choose One --"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:574
+msgid "Sidebar Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:575
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress "
+"registered sidebar to use on a specific area. By using the two provided "
+"filters, %s, and %s we can be selective about which sidebars are available "
+"on a specific content area."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:575
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to "
+"change the Blog Sidebar and we don't want to have the footer sidebars "
+"available on this area, we can unset those sidebars either manually or by "
+"using a regular expression if we have a common name like %s."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:589
+msgid "Social Links"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:590
+#, php-format
+msgid ""
+"The Social Links option type utilizes a drag & drop interface to create a "
+"list of social links. There are a few filters that make extending this "
+"option type easy. You can set the %s filter to %s and turn off loading "
+"default values. Use the %s filter to change the default values that are "
+"loaded. To filter the settings array use the %s filter."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:604
+msgid "Spacing"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:605
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or "
+"margin in the form of top, right, bottom, and left."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:619
+msgid "Tag Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:620
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user "
+"to check multiple tag IDs and will return that value as an array for use in "
+"a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:634
+msgid "Tag Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:635
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to "
+"select only one tag ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:649
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:650
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows "
+"the user to check multiple taxonomy IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:664
+msgid "Taxonomy Select"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:665
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows "
+"the user to select only one taxonomy ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:680
+msgid ""
+"The Text option type is used to save string values. For example, any "
+"optional or required text that is of reasonably short character length."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:695
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or "
+"text in the theme and has a WYSIWYG editor that can be filtered to change "
+"the how it is displayed. For example, you can filter %s, %s, %s, and %s."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:709
+msgid "Textarea Simple"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:710
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code "
+"or text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:724
+msgid "Textblock"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:725
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, but has no title above the text block. "
+"You can then use the Textblock to add a more detailed set of instruction on "
+"how the options are used in your theme. You would never use this in your "
+"themes template files as it does not save a value."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:739
+msgid "Textblock Titled"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:740
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It "
+"will allow you to create & display HTML, and has a title above the text "
+"block. You can then use the Textblock Titled to add a more detailed set of "
+"instruction on how the options are used in your theme. You would never use "
+"this in your themes template files as it does not save a value."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:754
+msgid "Typography"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:755
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme "
+"either dynamically via the CSS option type above or manually with %s. The "
+"Typography option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:769
+msgid "Upload"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:770
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. "
+"After uploading, users are required to press the \"%s\" button in order to "
+"populate the input with the URI of that media. There is one caveat of this "
+"feature. If you import the theme options and have uploaded media on one site "
+"the old URI will not reflect the URI of your new site. You will have to re-"
+"upload or %s any media to your new server and change the URIs if necessary."
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:770
+msgid "Send to OptionTree"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:784
+msgid "Upload Attachment ID"
+msgstr ""
+
+#: plugins/applay-shortcodes/option-tree/assets/theme-mode/demo-theme-options.php:785
+#, php-format
+msgid ""
+"The Upload option type can also be saved as an attachment ID by adding %s to "
+"the class attribute."
+msgstr ""
+
+#. Name of the theme
+msgid "Applay"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Mobile App Store &amp; Showcase theme, suitable for app, team porfolio, app "
+"store..."
+msgstr ""
+
+#. URI of the theme
+msgid "http://leafcolor.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "LeafColor"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/leafcolor"
+msgstr ""
