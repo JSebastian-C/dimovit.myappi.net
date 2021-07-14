@@ -217,6 +217,9 @@ function custom_ajax()
 				wp_logout();
 				wp_destroy_current_session();
 				wp_clear_auth_cookie();
+
+				die();
+
 				$response = ['success' => true, 'message' => "Sesión cerrada exitosamente."];
 				break;
 			case 'delete_notification':
