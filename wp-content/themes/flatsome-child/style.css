@@ -12,10 +12,6 @@ Version: 3.0
     /*************** ADD MOBILE ONLY CSS HERE  ***************/
 }
 
-.absolute-footer {
-    display: none;
-}
-
 /* Estilo del titulo de la barra superior */
 
 #logo a {
@@ -26,6 +22,12 @@ Version: 3.0
 
 /* Estilo del nav bar */
 
-.mfp-content {
+/* .mfp-content {
     background: linear-gradient(#FFF, #FFF, #ffe5d4);
 }
+ */
+
+#wrapper #footer{
+	height: 0px;
+}
+

@@ -9,7 +9,7 @@ body {
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-    display: block
+    display: block;
 }
 
 audio, canvas, progress, video {
@@ -5848,7 +5848,7 @@ form p {
 }
 
 body {
-   /*  line-height: 1.6 */
+    line-height: 1.6
 }
 
 h1, h2, h3, h4, h5, h6 {

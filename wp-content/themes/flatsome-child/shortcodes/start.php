@@ -2,7 +2,7 @@
         <div class="solicitar_servicio">
             <img src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-content/themes/applay-child/images/dimovit-icono-4.png' ?>" /><br>
             <span>Solicitar servicio</span><br>
-            <Button class="empezar">Empezar</Button>
+            <a href="/ask_for_service"><Button class="b_solicitar_servicio">Empezar</Button></a>
         </div>
 
         <div class="divider"></div>
@@ -10,7 +10,7 @@
         <div class="ofrecer_servicio">
             <img src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-content/themes/applay-child/images/dimovit-icono-5.png' ?>" /><br>
             <span>Ofrecer servicio</span><br>
-            <Button class="empezar">Empezar</Button>
+            <a href=""><Button class="b_ofrecer_servicio">Empezar</Button></a>
         </div>
     </div>
     <style>
@@ -20,7 +20,7 @@
             width: 100%;
             text-align: center;
         }
-        
+
         .ext_body {
             margin-top: 10%;
         }
@@ -46,7 +46,8 @@
             width: 50%;
         }
 
-        .empezar {
+        .b_solicitar_servicio,
+        .b_ofrecer_servicio {
             background: linear-gradient(to right, #f07647, #f29351);
             color: #FFF;
             font-weight: bold;
