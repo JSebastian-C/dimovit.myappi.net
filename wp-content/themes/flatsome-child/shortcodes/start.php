@@ -65,4 +65,18 @@
             margin-left: 50px;
             margin-right: 50px;
         }
+
+        /*  Estilo de menú lateral */
+        .mfp-content {
+            background: linear-gradient(#FFF, #FFF, #ffe5d4);
+        }
     </style>
+
+    <script>
+        jQuery(($) => {
+            window.onload = () => {
+                /* Titulo del header */
+                $("#logo>a").attr("href", "/start");
+            }
+        });
+    </script>

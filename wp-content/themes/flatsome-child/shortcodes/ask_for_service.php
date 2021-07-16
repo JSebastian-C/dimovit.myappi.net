@@ -18,7 +18,7 @@ MAPA AQUÍ
     </span>
 </div>
 
-<a href="/ask_for_service_steps"><button id="b_start">¡Empezar!</button></a>
+<a href="/address"><button id="b_start">¡Empezar!</button></a>
 [/lightbox]
 
 <style>
@@ -79,4 +79,24 @@ MAPA AQUÍ
         padding-left: -15px;
         padding-right: -15px;
     }
+
+    /* .icon-menu:active() {
+        .mfp-content {
+            background: linear-gradient(#FFF, #FFF, #ffe5d4);
+        }
+    } */
 </style>
+
+<script>
+    jQuery(($) => {
+        /*  $(".icon-menu").click(() => {
+               Estilo de menú lateral 
+             console.log("Hola")
+         }); */
+
+        window.onload = () => {
+            /* Titulo del header */
+            $("#logo>a").attr("href","/start");
+        }
+    });
+</script>

@@ -113,9 +113,10 @@
 
     #screens {
         width: 100%;
+        display: transparent;
     }
 
-    #screens div {}
+    /* #screens div {} */
 
     /* Pantalla 1 */
     #step_1 {
@@ -226,6 +227,9 @@
     /* Pantalla 3 */
     #step_3 {
         margin-top: 45px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 111px;
     }
 
     #step_3 img {
@@ -241,25 +245,30 @@
 
     #avaliable_vehicles {
         margin-top: 10px;
-        margin-left: 5vh;
-        width: 80%;
+        width: 100%;
     }
 
     #avaliable_vehicles #vehicles {
         display: flex;
         background-color: #fff6f1;
         padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
         margin-bottom: 20px;
         border-radius: 15px;
+        justify-content: space-between;
+    }
+
+    #step_3 #avaliable_vehicles #vehicles {
+        box-shadow: 5px 5px 5px 0px #eee;
+    }
+
+    #step_3 #avaliable_vehicles #vehicles:hover {
+        box-shadow: 5px 10px 5px 0px #eee;
     }
 
     #v_a1,
     #v_b1,
     #v_c1 {
         color: #6c7997;
-        /* margin-right: 18vh; */
         text-align: left;
     }
 
@@ -267,7 +276,7 @@
     #v_b2,
     #v_c2 {
         color: #ed7747;
-        text-align: right;
+        text-align: center;
     }
 
     #tabs {
@@ -279,12 +288,20 @@
     }
 
     #tabs div {
-        /*         background-color: #f07647;
- */
         height: 10px;
         width: 10px;
         margin: 10px;
         border-radius: 15px;
+    }
+
+    @keyframes tabs {
+        from {
+            background-color: #f07647;
+        }
+
+        to {
+            background-color: #53658d;
+        }
     }
 
     #next {
@@ -298,30 +315,42 @@
 
 <script>
     jQuery(($) => {
-        let c = 3;
+        let c = 1;
 
         //Al abrir este archivo .php se pone la pagina que figure  con el valor de la variable "c", en este caso cómo se inicializa en 1 la página que se muestra es la primera
-        window.onload = current_page();
+        window.onload = () => {
+            /* Titulo del header */
+            $("#logo>a").attr("href", "/start");
+            $("#logo>a").html("Dirección");
+
+            current_page();
+        }
 
         //Acción que se realiza al presionar el botón con el identificador "#next"
         $("#next").click(() => {
             console.log(c);
-            current_page();
+            if (c > 3) {
+                window.location.href = "/confirm_address";
+            } else {
+                current_page();
+            }
         });
 
         //Esta función oculta las páginas que no figura con el valor de la variable "c", y la página que si lo haga se muestra y lo mismo con el indicador
         function current_page() {
             $("#screens>div").hide();
             $("#tabs div").css({
-                "background-color": "#f07647"
+                "background-color": "#f07647",
             });
 
-            $("#step_" + c).show();
+            $("#step_" + c).fadeIn();
             $("#tab_" + c).css({
-                "background-color": "#53658d"
+                "background-color": "#53658d",
+                "animation-name": "tabs",
+                "animation-duration": "0.5s"
             });
 
-            c == 3 ? c = 1 : c++;
+            c++;
         }
     });
 </script>

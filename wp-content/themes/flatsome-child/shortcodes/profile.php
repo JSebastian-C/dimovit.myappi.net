@@ -1,6 +1,6 @@
 <div id="fake_header_main">
 	<div id="fake_header">
-		<a id="chevron_left"><i class="fa fa-chevron-left"></i></a>
+		<a href="#" id="chevron_left"><i class="fa fa-chevron-left"></i></a>
 		<span id="title">Perfil</span>
 	</div>
 	<div id="ext_fake_header">
