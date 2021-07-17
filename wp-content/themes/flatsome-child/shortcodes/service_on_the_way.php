@@ -9,50 +9,7 @@
 
 <div id="aux_window">
     <i id="chevron"></i>
-
-    <div id="head_window">
-        <div id="sec_1">
-            <div id="one">
-                <img id="img_profile" src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-includes/images/smilies/rolleyes.png' ?>">
-                <div>
-                    <span id="name"><strong>Diego Sánchez</strong></span><br>
-                    <span id="id_car">AAA-586</span>
-                </div>
-            </div>
-
-            <div id="two">
-                <i class="fa fa-star"></i>
-                <span>4.8</span>
-            </div>
-        </div>
-
-        <div id="sec_2">
-            <div>
-                <i class="fa fa-car-alt"></i><br>
-                <span>Marca auto</span>
-            </div>
-            <div>
-                <i class="fa fa-money-bill-alt"></i><br>
-                <div id="cash">
-                    <span>Efectivo</span><br>
-                    <i class="fa fa-sort-down"></i>
-                </div>
-            </div>
-            <div>
-                <i class="fa fa-dollar-sign"></i><br>
-                <span>$50.000</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div id="body_window">
-
-    </div> -->
-
-    <div id="foot_window">
-        <div><i class="fa fa-plus-circle"></i> Ver más</div>
-        <div><i class="fa fa-window-close"></i> Cancelar</div>
-    </div>
+    <div id="aux_window_child"></div>
 </div>
 
 <style>
@@ -160,6 +117,39 @@
         margin-top: -10px;
     }
 
+    #body_window {
+        padding-top: 5px;
+    }
+
+    #body_window #sec_1 {
+        display: flex;
+        margin-bottom: -5px;
+    }
+
+    #body_window #sec_1 span {
+        color: #000;
+        font-size: 15px;
+    }
+
+    #body_window #sec_2 {
+        display: flex;
+    }
+
+    #body_window #sec_2 input {
+        border-color: #ee7647;
+        border-width: 1px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    #body_window #sec_2 i {
+        color: #FFF;
+        background-color: #53658d;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+    }
+
     #foot_window {
         padding-top: 15px;
         display: flex;
@@ -175,39 +165,97 @@
         color: #53658d;
         margin-right: 8px;
     }
+
+    #service_on_way {
+        text-align: center;
+        color: #000;
+        font-size: 20px;
+    }
 </style>
 
 <script>
     jQuery(($) => {
         let window_up = false,
             cash_show = false,
-            entrega_en_proceso = false;
+            service_on_the_way = false,
+            head_window = "",
+            body_window = "",
+            foot_window = "";
 
         window.onload = () => {
             chevron();
+            service_on_way();
             aux_window();
         }
 
+        //Se asigna el contenido html a las variables
+        head_window = '' +
+            '<div id="head_window">' +
+            '<div id="sec_1">' +
+            '<div id="one">' +
+            '<img id="img_profile" src=' + document.location.origin + "/wp-includes/images/smilies/rolleyes.png" + '>' +
+            '<div>' +
+            '<span id="name"><strong>Diego Sánchez</strong></span><br>' +
+            '<span id="id_car">AAA-586</span>' +
+            '</div>' +
+            '</div>' +
+
+            ' <div id="two">' +
+            '<i class="fa fa-star"></i>' +
+            '<span>4.8</span>' +
+            '</div>' +
+            '</div>' +
+
+            '<div id="sec_2">' +
+            '<div>' +
+            '<i class="fa fa-car-alt"></i><br>' +
+            '<span>Marca auto</span>' +
+            '</div>' +
+            '<div>' +
+            '<i class="fa fa-money-bill-alt"></i><br>' +
+            '<div id="cash">' +
+            '<span>Efectivo</span><br>' +
+            '<i class="fa fa-sort-down"></i>' +
+            '</div>' +
+            '</div>' +
+            '<div>' +
+            '<i class="fa fa-dollar-sign"></i><br>' +
+            '<span>$50.000</span>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+
+        body_window = '' +
+            '<div id="body_window">' +
+            '<div id="sec_1">' +
+            '<span>Hora estimada de llegada</span>' +
+            '<span>6:15 pm</span>' +
+            '</div>' +
+            '<div id="sec_2">' +
+            '<input type="text" placeholder="Escribir mensaje">' +
+            '<i class="fa fa-phone"></i>' +
+            '</div>' +
+            '</div>' +
+            '';
+
+        foot_window = '' +
+            '<div id="foot_window">' +
+            '<div><i class="fa fa-plus-circle"></i> Ver más</div>' +
+            '<div><i class="fa fa-window-close"></i> Cancelar</div>' +
+            '</div>';
+
+        foot_window_aux = '' +
+            '<div id="service_on_way">' +
+            '<span>Servicio en curso</span>' +
+            '</div>';
+
         //Se activa al presionar el icono chevron
         $("#chevron").click(() => {
-            if (window_up == false) {
+            window_up == false ? window_up = true : window_up = false;
 
-                /* $("#map").css({
-
-                });
-
-                $("#aux_window").css("height", "30%"); */
-
-                window_up = true;
-
-            } else {
-                /* $("#aux_window").css("height", "25%"); */
-
-                window_up = false;
-            }
             chevron();
+            service_on_way();
             aux_window();
-            console.log(window_up);
         });
 
         //Animación del chevron
@@ -220,21 +268,37 @@
         function aux_window() {
             if (window_up == false) {
                 $("#map").css("height", "65%");
-                /*  $("#aux_window").css("height", "30%"); */
+                $("#aux_window_child").html(null);
+                $("#aux_window_child").append(head_window);
+                $("#aux_window_child").append(foot_window);
+                $("#service_on_way").css("padding-top", "15px");
             } else {
                 $("#map").css("height", "55%");
-                /* $("#aux_window").css("height", "40%"); */
+                $("#aux_window_child").html(null);
+                $("#aux_window_child").append(head_window);
+                $("#aux_window_child").append(body_window);
+                $("#aux_window_child").append(foot_window);
+                $("#body_window").css({
+                    "padding-top": "10px"
+                });
+                $("#foot_window").css({
+                    "padding-top": "0px"
+                });
+                $("#service_on_way").css("padding-top", "3px");
             }
         }
 
         //Se valida si el icono de la sección "efectivo" se seleccionó
         $("#cash i").click(() => {
             cash_show == false ? /* $("#cash i").toggleClass("fa fa-sort-down"), */ cash_show = true : /* $("#cash i").toggleClass("fa fa-chevron-down"), */ cash_show = false;
-            cash();
+            console.log("Variable cash_show: " + cash_show);
         });
 
-        function cash() {
-            console.log("Variable cash_show: " + cash_show);
+        //Html que se muestra si la entrega está en proceso o no
+        function service_on_way() {
+            if (service_on_the_way != false) {
+                foot_window = foot_window_aux;
+            }
         }
     });
 </script>
