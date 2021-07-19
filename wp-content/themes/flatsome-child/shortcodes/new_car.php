@@ -205,7 +205,6 @@
 
         //Acción que se realiza al presionar el botón con el identificador "#next"
         $("#next").click(() => {
-            console.log(c);
             if (c > 3) {
                 window.location.href = "/start";
             } else {

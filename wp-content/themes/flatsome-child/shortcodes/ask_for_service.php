@@ -3,10 +3,10 @@ MAPA AQUÍ
 
 
 <!-- Shortcode de Flatsome para mostrar un lightbox -->
-[button id="b_modal" text="Empezar" link="#modal_start" background-color: #FFF;]
-[button id="b_modal" text="Calificar servicio" link="#modal_calification" background-color: #FFF;]
+<!-- [button id="b_modal_start" text="Empezar" link="#modal_start" background-color: #FFF;]
+[button id="b_modal_calification" text="Calificar servicio" link="#modal_calification" background-color: #FFF;] -->
 <!-- width="100%" height="100%" -->
-[lightbox id="modal_start" padding="0px"]
+<!-- [lightbox id="modal_start" padding="0px"]
 <div id="child_modal">
     <div id="header_modal">
         <img id="image" src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-content/themes/applay-child/images/dimovit-icono-6.png' ?>"><br>
@@ -20,9 +20,9 @@ MAPA AQUÍ
 </div>
 
 <a href="/address"><button id="b_start">¡Empezar!</button></a>
-[/lightbox]
+[/lightbox] -->
 
-[lightbox id="modal_calification" padding="0px"]
+<!-- [lightbox id="modal_calification" padding="0px"]
 
 <div id="child">
     <span>¡Califica el servicio!</span>
@@ -49,7 +49,7 @@ MAPA AQUÍ
 
 <button id="save_rating">Calificar</button>
 
-[/lightbox]
+[/lightbox] -->
 
 <style>
     #main {
@@ -59,9 +59,9 @@ MAPA AQUÍ
 
     /* .mfp-container {} */
 
-    .mfp-content {
+    /* .mfp-content {
         background-color: transparent;
-    }
+    } */
 
     #modal_start {
         border-radius: 15px;
@@ -191,6 +191,10 @@ MAPA AQUÍ
         width: 100%;
         margin-bottom: -20px;
     }
+
+    .mfp-content {
+        background: linear-gradient(#FFF, #FFF, #ffe5d4);
+    }
 </style>
 
 <script>
@@ -257,5 +261,6 @@ MAPA AQUÍ
                 });
             }
         }
+
     });
 </script>

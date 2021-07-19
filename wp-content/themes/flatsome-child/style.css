@@ -20,8 +20,9 @@ Version: 3.0
     font-weight: lighter;
 }
 
-/* Estilo del nav bar */
 
-/*.mfp-content {
+/*  Estilo de menú lateral */
+
+.mfp-content {
     background: linear-gradient(#FFF, #FFF, #ffe5d4);
-}*/
+}

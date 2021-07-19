@@ -2,22 +2,22 @@
     MAPA AQUÍ
 </div>
 
-<div id="aux_window">
+<!-- <div id="aux_window">
     <div id="notification"></div>
     <div id="user_cont"></div>
-</div>
+</div> -->
 
 <style>
     #main {
         height: 100vh;
     }
 
-    #map {
+   /*  #map {
         background-color: #BFBFC0;
         height: 75vh;
-    }
+    } */
 
-    #aux_window {
+   /*  #aux_window {
         background-color: #FFF;
     }
 
@@ -58,8 +58,6 @@
     #user {
         padding: 30px;
         padding-top: 10px;
-        /*         padding-bottom: 5px;
- */
     }
 
     #user #sec_1 {
@@ -136,7 +134,7 @@
     #user #sec_3 div span {
         color: #000;
     }
-
+ */
     #not {
         background-color: #f07647;
         padding: 15px;

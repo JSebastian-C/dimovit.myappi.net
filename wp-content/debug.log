@@ -2775,3 +2775,736 @@ Stack trace:
 [16-Jul-2021 17:37:00 America/Bogota] PHP  19. preg_replace_callback() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
 [16-Jul-2021 17:37:00 America/Bogota] PHP  20. do_shortcode_tag() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
 [16-Jul-2021 17:37:00 America/Bogota] PHP  21. custom_shortcodes() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:343
+[19-Jul-2021 10:01:15 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:01:15 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:01:15 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:01:15 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:01:15 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:01:15 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:01:15 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:01:15 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:01:15 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:01:15 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:01:15 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:01:15 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:01:15 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:01:15 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:01:15 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:01:15 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:01:15 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:01:15 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:01:15 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:01:15 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:01:15 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:01:15 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:01:15 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:01:15 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:01:15 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:01:15 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:01:15 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:01:15 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:01:15 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:01:15 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:01:15 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:01:15 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:01:15 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:01:15 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:01:15 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:01:15 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:01:15 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:01:15 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:01:15 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:01:15 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:01:15 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:01:15 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:01:15 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:01:15 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:01:15 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:01:15 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:30:23 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:30:23 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:30:23 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:30:23 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:30:23 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:30:23 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:30:23 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:30:23 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:30:23 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:30:23 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:30:23 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:30:23 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:30:23 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:30:23 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:30:23 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:30:23 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:30:23 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:30:23 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:30:23 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:30:23 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:30:23 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:30:23 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:30:23 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:30:23 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:30:23 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:30:23 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:30:23 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:30:23 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:30:23 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:30:23 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:30:23 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:30:23 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:30:23 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:30:23 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:30:23 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:30:23 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:30:23 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:30:23 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:30:23 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:30:23 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:30:23 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:30:23 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:30:23 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:30:24 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:30:24 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:42:22 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:42:22 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:42:22 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:42:22 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:42:22 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:42:22 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:42:22 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:42:22 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:42:22 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:42:22 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:42:22 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:42:22 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:42:22 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:42:22 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:42:22 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:42:22 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 10:42:22 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:42:22 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:42:22 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 10:42:22 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:42:22 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:42:22 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:42:22 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:42:22 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:42:22 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:42:22 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:42:22 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:42:22 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:42:22 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:42:22 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:42:22 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:42:22 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 10:42:22 America/Bogota] PHP Stack trace:
+[19-Jul-2021 10:42:22 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 10:42:22 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 10:42:22 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 10:42:22 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 10:42:22 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 10:42:22 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 10:42:22 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 10:42:22 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 10:42:22 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 10:42:22 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 10:42:22 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 10:42:22 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Stack trace:
+[19-Jul-2021 15:50:56 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 15:50:56 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 15:50:56 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 15:50:56 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 15:50:56 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 15:50:56 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 15:50:56 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 15:50:56 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 15:50:56 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 15:50:56 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Stack trace:
+[19-Jul-2021 15:50:56 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 15:50:56 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 15:50:56 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 15:50:56 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 15:50:56 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 15:50:56 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[19-Jul-2021 15:50:56 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 15:50:56 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 15:50:56 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[19-Jul-2021 15:50:56 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Stack trace:
+[19-Jul-2021 15:50:56 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 15:50:56 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 15:50:56 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 15:50:56 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 15:50:56 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 15:50:56 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 15:50:56 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 15:50:56 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 15:50:56 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 15:50:56 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 15:50:56 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 15:50:56 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[19-Jul-2021 15:50:56 America/Bogota] PHP Stack trace:
+[19-Jul-2021 15:50:56 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[19-Jul-2021 15:50:56 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[19-Jul-2021 15:50:56 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[19-Jul-2021 15:50:56 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[19-Jul-2021 15:50:56 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[19-Jul-2021 15:50:56 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[19-Jul-2021 15:50:56 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[19-Jul-2021 15:50:56 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[19-Jul-2021 15:50:56 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[19-Jul-2021 15:50:56 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[19-Jul-2021 15:50:56 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[19-Jul-2021 15:50:56 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => api.mailgun.net
+            [hostnameDomainOnly] => mailgun.net
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.mailgun.net
+            [reportedHostnameDomainOnly] => mailgun.net
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mailgun_api
+            [label] => 
+            [id] => api.mailgun.net_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_587
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_25
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 465
+            [protocol] => SMTPS
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_465
+        )
+
+)
+
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mailgun API
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:587
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:25
+[19-Jul-2021 18:16:37 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:465
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => api.mailgun.net
+            [hostnameDomainOnly] => mailgun.net
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.mailgun.net
+            [reportedHostnameDomainOnly] => mailgun.net
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mailgun_api
+            [label] => 
+            [id] => api.mailgun.net_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_587
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_25
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 465
+            [protocol] => SMTPS
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_465
+        )
+
+)
+
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mailgun API
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:587
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:25
+[19-Jul-2021 18:16:54 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:465
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => api.mailgun.net
+            [hostnameDomainOnly] => mailgun.net
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.mailgun.net
+            [reportedHostnameDomainOnly] => mailgun.net
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mailgun_api
+            [label] => 
+            [id] => api.mailgun.net_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_587
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_25
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.dimovit.myappi.net
+            [hostnameDomainOnly] => myappi.net
+            [port] => 465
+            [protocol] => SMTPS
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => da1.ahwebhost.com
+            [reportedHostnameDomainOnly] => ahwebhost.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.dimovit.myappi.net_465
+        )
+
+)
+
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mailgun API
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:587
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:25
+[19-Jul-2021 18:16:55 America/Bogota] ERROR PostmanManageConfigurationAjaxHandler: SMTP - myappi.net:465
+[19-Jul-2021 18:19:16 America/Bogota] PHP Notice:  Undefined index: fallback_smtp_password in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanInputSanitizer.php on line 155
+[19-Jul-2021 18:19:16 America/Bogota] PHP Stack trace:
+[19-Jul-2021 18:19:16 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\options.php:0
+[19-Jul-2021 18:19:16 America/Bogota] PHP   2. update_option() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\options.php:314
+[19-Jul-2021 18:19:16 America/Bogota] PHP   3. sanitize_option() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\option.php:369
+[19-Jul-2021 18:19:16 America/Bogota] PHP   4. apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\formatting.php:4907
+[19-Jul-2021 18:19:16 America/Bogota] PHP   5. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:212
+[19-Jul-2021 18:19:16 America/Bogota] PHP   6. PostmanInputSanitizer->sanitize() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:294
+[19-Jul-2021 18:19:16 America/Bogota] PHP   7. PostmanInputSanitizer->sanitizePassword() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanInputSanitizer.php:89
+[19-Jul-2021 18:19:43 America/Bogota] ERROR PostmanWpMail: Exception code=535 message=Incorrect authentication data
+[19-Jul-2021 18:19:45 America/Bogota] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php on line 12
+[19-Jul-2021 18:19:45 America/Bogota] PHP Stack trace:
+[19-Jul-2021 18:19:45 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:0
+[19-Jul-2021 18:19:45 America/Bogota] PHP   2. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:187
+[19-Jul-2021 18:19:45 America/Bogota] PHP   3. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:19:45 America/Bogota] PHP   4. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:19:45 America/Bogota] PHP   5. PostmanSendTestEmailAjaxController->sendTestEmailViaAjax() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:19:45 America/Bogota] PHP   6. wp_mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Postman-Send-Test-Email\PostmanSendTestEmailController.php:234
+[19-Jul-2021 18:19:45 America/Bogota] PHP   7. PostmanWpMail->send() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMailBinder.php:117
+[19-Jul-2021 18:19:45 America/Bogota] PHP   8. PostmanWpMail->sendMessage() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:60
+[19-Jul-2021 18:19:45 America/Bogota] PHP   9. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:276
+[19-Jul-2021 18:19:45 America/Bogota] PHP  10. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:19:45 America/Bogota] PHP  11. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:19:45 America/Bogota] PHP  12. PostmanNotify->notify() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:19:45 America/Bogota] PHP  13. PostmanMailNotify->send_message() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanNotify.php:210
+[19-Jul-2021 18:19:45 America/Bogota] PHP  14. mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php:12
+[19-Jul-2021 18:19:45 America/Bogota] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 535
+[19-Jul-2021 18:20:41 America/Bogota] ERROR PostmanWpMail: Exception code=535 message=Incorrect authentication data
+[19-Jul-2021 18:20:43 America/Bogota] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php on line 12
+[19-Jul-2021 18:20:43 America/Bogota] PHP Stack trace:
+[19-Jul-2021 18:20:43 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:0
+[19-Jul-2021 18:20:43 America/Bogota] PHP   2. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:187
+[19-Jul-2021 18:20:43 America/Bogota] PHP   3. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:20:43 America/Bogota] PHP   4. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:20:43 America/Bogota] PHP   5. PostmanSendTestEmailAjaxController->sendTestEmailViaAjax() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:20:43 America/Bogota] PHP   6. wp_mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Postman-Send-Test-Email\PostmanSendTestEmailController.php:234
+[19-Jul-2021 18:20:43 America/Bogota] PHP   7. PostmanWpMail->send() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMailBinder.php:117
+[19-Jul-2021 18:20:43 America/Bogota] PHP   8. PostmanWpMail->sendMessage() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:60
+[19-Jul-2021 18:20:43 America/Bogota] PHP   9. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:276
+[19-Jul-2021 18:20:43 America/Bogota] PHP  10. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:20:43 America/Bogota] PHP  11. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:20:43 America/Bogota] PHP  12. PostmanNotify->notify() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:20:43 America/Bogota] PHP  13. PostmanMailNotify->send_message() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanNotify.php:210
+[19-Jul-2021 18:20:43 America/Bogota] PHP  14. mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php:12
+[19-Jul-2021 18:20:43 America/Bogota] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 535
+[19-Jul-2021 18:37:20 America/Bogota] ERROR PostmanWpMail: Exception code=535 message=Incorrect authentication data
+[19-Jul-2021 18:37:22 America/Bogota] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php on line 12
+[19-Jul-2021 18:37:22 America/Bogota] PHP Stack trace:
+[19-Jul-2021 18:37:22 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:0
+[19-Jul-2021 18:37:22 America/Bogota] PHP   2. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\admin-ajax.php:187
+[19-Jul-2021 18:37:22 America/Bogota] PHP   3. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:37:22 America/Bogota] PHP   4. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:37:22 America/Bogota] PHP   5. PostmanSendTestEmailAjaxController->sendTestEmailViaAjax() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:37:22 America/Bogota] PHP   6. wp_mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Postman-Send-Test-Email\PostmanSendTestEmailController.php:234
+[19-Jul-2021 18:37:22 America/Bogota] PHP   7. PostmanWpMail->send() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMailBinder.php:117
+[19-Jul-2021 18:37:22 America/Bogota] PHP   8. PostmanWpMail->sendMessage() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:60
+[19-Jul-2021 18:37:22 America/Bogota] PHP   9. do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\PostmanWpMail.php:276
+[19-Jul-2021 18:37:22 America/Bogota] PHP  10. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:484
+[19-Jul-2021 18:37:22 America/Bogota] PHP  11. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[19-Jul-2021 18:37:22 America/Bogota] PHP  12. PostmanNotify->notify() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[19-Jul-2021 18:37:22 America/Bogota] PHP  13. PostmanMailNotify->send_message() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanNotify.php:210
+[19-Jul-2021 18:37:22 America/Bogota] PHP  14. mail() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\post-smtp\Postman\Extensions\Core\Notifications\PostmanMailNotify.php:12
+[19-Jul-2021 18:37:22 America/Bogota] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 535

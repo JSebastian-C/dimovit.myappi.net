@@ -13,7 +13,7 @@
             <a href="/offer_service"><Button class="b_ofrecer_servicio">Empezar</Button></a>
         </div>
 
-        <a href="/new_car"><button>agregar nuevo vehículo</button></a>
+        <!-- <a href="/new_car"><button>agregar nuevo vehículo</button></a> -->
     </div>
     <style>
         #main {
@@ -66,11 +66,6 @@
             margin: 10%;
             margin-left: 50px;
             margin-right: 50px;
-        }
-
-        /*  Estilo de menú lateral */
-        .mfp-content {
-            background: linear-gradient(#FFF, #FFF, #ffe5d4);
         }
     </style>
 

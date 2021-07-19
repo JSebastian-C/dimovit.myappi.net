@@ -24,17 +24,21 @@ function setCookie(cname, cvalue, exdays) {
 jQuery(function ($) {
 	jQuery(".logo").attr("href", '/start');
 
+	//Anula la visualización del footer
+	jQuery("#footer").remove();
+	jQuery("#content p").remove();
+
 	if (window.location.pathname == '/') {
 		setTimeout(function () {
-			/* if (getCookie('first_time') == 1) { */
+			if (getCookie('first_time') == 1) {
 				if (jQuery('body').hasClass('logged-in')) {
 					window.location.href = "/start";
 				} else {
 					window.location.href = "/clogin";
 				}
-		/* 	} else {
+			} else {
 				window.location.href = "/splash";
-			} */
+			}
 		}, 3000)
 	}
 })
