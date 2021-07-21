@@ -20,9 +20,14 @@ Version: 3.0
     font-weight: lighter;
 }
 
-
 /*  Estilo de menú lateral */
 
 .mfp-content {
     background: linear-gradient(#FFF, #FFF, #ffe5d4);
+}
+
+/* Botón de registro */
+
+#um-submit-btn {
+    background-color: #f07647;
 }
