@@ -46,15 +46,19 @@
         text-align: justify;
     }
 
-    .input {
-        border: none;
-        border-bottom: 1px solid #a8a6a7;
-        margin-top: 10%;
+    .input::placeholder {
+        color: #a7a7a7;
     }
 
-    .input::placeholder {
-        color: gray
-    }
+    .input {
+		border: none;
+		border-bottom: 1px solid #a8a6a7;
+		width: 100%;
+		background-color: transparent;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+        margin-top: 10%;
+	}
 
     .ext_body button {
         background: linear-gradient(to right, #f07647, #f29351);

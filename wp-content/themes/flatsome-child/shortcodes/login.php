@@ -12,8 +12,8 @@
 	</form>
 
 	<div class="footer">
-		<a href="/recover_pass" class="olvidar_contra">¿Olvidaste tu contraseña?</a>
-		<div class="divider"></div>
+		<!-- <a href="/recover_pass" class="olvidar_contra">¿Olvidaste tu contraseña?</a>
+		<div class="divider"></div> -->
 		<a class="registro" href="/registro"><button>Registrate</button></a>
 	</div>
 </div>
