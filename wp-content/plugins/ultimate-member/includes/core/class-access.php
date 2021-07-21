@@ -51,6 +51,13 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 			$this->redirect_handler = false;
 			$this->allow_access = false;
 
+			add_action( 'pre_get_posts', array( &$this, 'exclude_posts' ), 99, 1 );
+			add_action( 'pre_get_comments', array( &$this, 'exclude_posts_comments' ), 99, 1 );
+			add_filter( 'get_next_post_where', array( &$this, 'exclude_navigation_posts' ), 99, 5 );
+			add_filter( 'get_previous_post_where', array( &$this, 'exclude_navigation_posts' ), 99, 5 );
+			add_filter( 'widget_posts_args', array( &$this, 'exclude_restricted_posts_widget' ), 99, 1 );
+			add_filter( 'comment_feed_where', array( &$this, 'exclude_posts_comments_feed' ), 99, 2 );
+
 			//there is posts (Posts/Page/CPT) filtration if site is accessible
 			//there also will be redirects if they need
 			//protect posts types
@@ -63,6 +70,10 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 			// turn on/off content replacement on the filter 'the_content'
 			add_action( 'get_header', array( &$this, 'replace_post_content_on' ), 12 );
 			add_action( 'get_footer', array( &$this, 'replace_post_content_off' ), 8 );
+			// turn on/off content replacement on the filter 'the_content' with the theme "Avada"
+			add_action( 'avada_before_body_content', array( &$this, 'replace_post_content_off' ), 8 );
+			add_action( 'avada_before_main_container', array( &$this, 'replace_post_content_on' ), 12 );
+			add_action( 'avada_after_main_content', array( &$this, 'replace_post_content_off' ), 8 );
 			
 			//filter attachment
 			add_filter( 'wp_get_attachment_url', array( &$this, 'filter_attachment' ), 99, 2 );
@@ -504,9 +515,10 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 			 * }
 			 * ?>
 			 */
-			$enable_referer = apply_filters( "um_access_enable_referer", false );
-			if ( ! $enable_referer )
+			$enable_referer = apply_filters( 'um_access_enable_referer', false );
+			if ( ! $enable_referer ) {
 				return $url;
+			}
 
 			$url = add_query_arg( 'um_ref', $referer, $url );
 			return $url;
@@ -541,10 +553,14 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 		 * return false if post is not private
 		 * Restrict content new logic
 		 *
-		 * @param $post
+		 * @param \WP_Post|int $post Post ID or object
 		 * @return bool|array
 		 */
 		function get_post_privacy_settings( $post ) {
+			if ( is_numeric( $post ) ) {
+				$post = get_post( $post );
+			}
+
 			$exclude = false;
 
 			//if logged in administrator all pages are visible
@@ -699,7 +715,7 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 			foreach ( $posts as $post ) {
 
 				//Woocommerce AJAX fixes....remove filtration on wc-ajax which goes to Front Page
-				if ( ! empty( $_GET['wc-ajax'] ) && defined('WC_DOING_AJAX') && WC_DOING_AJAX  /*&& $query->is_front_page()*/ ) {
+				if ( ! empty( $_GET['wc-ajax'] ) && defined( 'WC_DOING_AJAX' ) && WC_DOING_AJAX ) {
 					$filtered_posts[] = $post;
 					continue;
 				}
@@ -1014,6 +1030,120 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 
 
 		/**
+		 * Exclude posts from query
+		 *
+		 * @param \WP_Query $query
+		 */
+		function exclude_posts( $query ) {
+			if ( $query->is_main_query() ) {
+				$exclude_posts = $this->exclude_posts_array();
+				if ( ! empty( $exclude_posts ) ) {
+					$post__not_in = $query->get( 'post__not_in', array() );
+					$query->set( 'post__not_in', array_merge( $post__not_in, $exclude_posts ) );
+				}
+			}
+		}
+
+
+		/**
+		 * Exclude comments from restricted posts in widgets
+		 *
+		 * @param \WP_Comment_Query $query
+		 *
+		 */
+		function exclude_posts_comments( $query ) {
+			$exclude_posts = $this->exclude_posts_array( false );
+			if ( ! empty( $exclude_posts ) ) {
+				$query->query_vars['post__not_in'] = $exclude_posts;
+			}
+		}
+
+
+		/**
+		 * Exclude comments from comments feed
+		 *
+		 * @param string $where
+		 * @param \WP_Query $query
+		 *
+		 * @return string
+		 */
+		function exclude_posts_comments_feed( $where, $query ) {
+			$exclude_posts = $this->exclude_posts_array( false );
+			if ( ! empty( $exclude_posts ) ) {
+				$exclude_string = implode( ',', $exclude_posts );
+				$where .= ' AND comment_post_ID NOT IN ( ' . $exclude_string . ' )';
+			}
+
+			return $where;
+		}
+
+
+		/**
+		 * get array with restricted posts
+		 *
+		 * @param bool $in_query
+		 *
+		 * @return array
+		 */
+		function exclude_posts_array( $in_query = true ) {
+			global $wpdb;
+
+			$exclude_posts = array();
+			$posts = $wpdb->get_col("SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key = 'um_content_restriction'");
+			foreach ( $posts as $post ) {
+				$content_restriction = $this->get_post_privacy_settings( $post );
+
+				if ( false === $in_query || ! empty( $content_restriction['_um_access_hide_from_queries'] ) ) {
+					if ( $this->is_restricted( $post ) ) {
+						array_push( $exclude_posts, $post );
+					}
+				}
+			}
+
+			return $exclude_posts;
+		}
+
+
+		/**
+		 * Exclude posts from next, previous navigation
+		 *
+		 * @param string  $where
+		 * @param bool    $in_same_term
+		 * @param array   $excluded_terms
+		 * @param string  $taxonomy.
+		 * @param \WP_Post $post
+		 *
+		 * @return string
+		 */
+		function exclude_navigation_posts( $where, $in_same_term, $excluded_terms, $taxonomy, $post ) {
+			$exclude_posts = $this->exclude_posts_array();
+			if ( ! empty( $exclude_posts ) ) {
+				$exclude_string = implode( ',', $exclude_posts );
+				$where .= ' AND ID NOT IN ( ' . $exclude_string . ' )';
+			}
+
+			return $where;
+		}
+
+
+		/**
+		 * Exclude restricted posts in widgets
+		 *
+		 * @param array  $array
+		 *
+		 * @return array
+		 */
+		function exclude_restricted_posts_widget( $array ) {
+			$exclude_posts = $this->exclude_posts_array();
+			if ( ! empty( $exclude_posts ) ) {
+				$array['post__not_in'] = $exclude_posts;
+			}
+
+			return $array;
+		}
+
+
+		/**
 		 * @param string $single_template
 		 *
 		 * @return string
@@ -1203,7 +1333,7 @@ if ( ! class_exists( 'um\core\Access' ) ) {
 					$restricted = false;
 				} elseif ( '1' == $restriction[ '_um_accessible' ] ) {
 					//if post for not logged in users and user is not logged in
-					if ( !is_user_logged_in() ) {
+					if ( ! is_user_logged_in() ) {
 						$restricted = false;
 					} else {
 

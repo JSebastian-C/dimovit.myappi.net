@@ -195,7 +195,7 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 		 * @param $post_id
 		 * @param $post
 		 */
-		function save_metabox_custom( $post_id, $post ) {
+		public function save_metabox_custom( $post_id, $post ) {
 			// validate nonce
 			if ( ! isset( $_POST['um_admin_save_metabox_custom_nonce'] ) ||
 			     ! wp_verify_nonce( $_POST['um_admin_save_metabox_custom_nonce'], basename( __FILE__ ) ) ) {
@@ -313,7 +313,9 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 			}
 
 			if ( ! empty( $_POST['um_content_restriction'] ) && is_array( $_POST['um_content_restriction'] ) ) {
-				update_post_meta( $post_id, 'um_content_restriction', $_POST['um_content_restriction'] );
+				$restriction_meta = UM()->admin()->sanitize_post_restriction_meta( $_POST['um_content_restriction'] );
+
+				update_post_meta( $post_id, 'um_content_restriction', $restriction_meta );
 			} else {
 				delete_post_meta( $post_id, 'um_content_restriction' );
 			}
@@ -340,7 +342,9 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 			}
 
 			if ( ! empty( $_POST['um_content_restriction'] ) && is_array( $_POST['um_content_restriction'] ) ) {
-				update_post_meta( $post_id, 'um_content_restriction', $_POST['um_content_restriction'] );
+				$restriction_meta = UM()->admin()->sanitize_post_restriction_meta( $_POST['um_content_restriction'] );
+
+				update_post_meta( $post_id, 'um_content_restriction', $restriction_meta );
 			} else {
 				delete_post_meta( $post_id, 'um_content_restriction' );
 			}
@@ -666,7 +670,9 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 			}
 
 			if ( ! empty( $_REQUEST['um_content_restriction'] ) && is_array( $_REQUEST['um_content_restriction'] ) ) {
-				update_term_meta( $termID, 'um_content_restriction', $_REQUEST['um_content_restriction'] );
+				$restriction_meta = UM()->admin()->sanitize_term_restriction_meta( $_REQUEST['um_content_restriction'] );
+
+				update_term_meta( $termID, 'um_content_restriction', $restriction_meta );
 			} else {
 				delete_term_meta( $termID, 'um_content_restriction' );
 			}
@@ -851,7 +857,7 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 				)
 			);
 
-			if ( ! isset( $_GET['id'] ) || 'administrator' != sanitize_key( $_GET['id'] ) ) {
+			if ( ! isset( $_GET['id'] ) || 'administrator' !== sanitize_key( $_GET['id'] ) ) {
 				$roles_metaboxes[] = array(
 					'id'        => 'um-admin-form-home',
 					'title'     => __( 'Homepage Options', 'ultimate-member' ),
@@ -1093,14 +1099,17 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 			delete_post_meta( $post_id, '_um_search_filters' );
 			delete_post_meta( $post_id, '_um_search_filters_gmt' );
 
-			//save metadata
-			foreach ( $_POST['um_metadata'] as $k => $v ) {
+			delete_post_meta( $post_id, '_um_sorting_fields' );
 
-				if ( $k == '_um_show_these_users' && trim( $_POST['um_metadata'][ $k ] ) ) {
+			//save metadata
+			$metadata = UM()->admin()->sanitize_member_directory_meta( $_POST['um_metadata'] );
+			foreach ( $metadata as $k => $v ) {
+
+				if ( $k == '_um_show_these_users' && trim( $v ) ) {
 					$v = preg_split( '/[\r\n]+/', $v, -1, PREG_SPLIT_NO_EMPTY );
 				}
 
-				if ( $k == '_um_exclude_these_users' && trim( $_POST['um_metadata'][ $k ] ) ) {
+				if ( $k == '_um_exclude_these_users' && trim( $v ) ) {
 					$v = preg_split( '/[\r\n]+/', $v, -1, PREG_SPLIT_NO_EMPTY );
 				}
 
@@ -1172,7 +1181,11 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 
 			// save
 			delete_post_meta( $post_id, '_um_profile_metafields' );
-			foreach ( $_POST['form'] as $k => $v ) {
+
+
+			$form_meta = UM()->admin()->sanitize_form_meta( $_POST['form'] );
+
+			foreach ( $form_meta as $k => $v ) {
 				if ( strstr( $k, '_um_' ) ) {
 					if ( $k === '_um_is_default' ) {
 						$mode = UM()->query()->get_attr( 'mode', $post_id );
@@ -1732,7 +1745,7 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 					?>
 
 					<p><label for="_force_confirm_pass"><?php _e( 'Automatically add a confirm password field?', 'ultimate-member' ) ?> <?php UM()->tooltip( __( 'Turn on to add a confirm password field. If turned on the confirm password field will only show on register forms and not on login forms.', 'ultimate-member' ) ); ?></label>
-						<input type="checkbox" name="_force_confirm_pass" id="_force_confirm_pass" value="1" <?php checked( isset( $this->edit_mode_value ) ? $this->edit_mode_value : 0 ) ?> />
+						<input type="checkbox" name="_force_confirm_pass" id="_force_confirm_pass" value="1" <?php checked( isset( $this->edit_mode_value ) ? $this->edit_mode_value : 0 ) ?> class="um-adm-conditional" data-cond1="1" data-cond1-show="_label_confirm_pass" data-cond1-hide="xxx" />
 					</p>
 
 					<?php
@@ -2261,6 +2274,16 @@ if ( ! class_exists( 'um\admin\core\Admin_Metabox' ) ) {
 
 					<p><label for="_label"><?php _e( 'Label', 'ultimate-member' ) ?> <?php UM()->tooltip( __( 'The field label is the text that appears above the field on your front-end form. Leave blank to not show a label above field.', 'ultimate-member' ) ); ?></label>
 						<input type="text" name="_label" id="_label" value="<?php echo htmlspecialchars( $this->edit_mode_value, ENT_QUOTES ); ?>" />
+					</p>
+
+					<?php
+					break;
+
+				case '_label_confirm_pass':
+					?>
+
+					<p><label for="_label_confirm_pass"><?php _e( 'Confirm password field label', 'ultimate-member' ) ?> <?php UM()->tooltip( __( 'This label is the text that appears above the confirm password field. Leave blank to show default label.', 'ultimate-member' ) ); ?></label>
+						<input type="text" name="_label_confirm_pass" id="_label_confirm_pass" value="<?php echo htmlspecialchars( $this->edit_mode_value, ENT_QUOTES ); ?>" />
 					</p>
 
 					<?php
