@@ -1,226 +1,99 @@
-<div id="fake_header_main">
-	<div id="fake_header">
-		<a href="#" id="chevron_left"><i class="fa fa-chevron-left"></i></a>
-		<span id="title">Perfil</span>
-	</div>
-	<div id="ext_fake_header">
-		<img id="img_profile" src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-includes/images/smilies/rolleyes.png' ?>">
-		<img id="QR_code" src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/wp-content/themes/flatsome-child/images/view/Dimovit.png' ?>">
-	</div>
+<?php
+global $wpdb;
+global $user;
+global $meta;
+
+?>
+<div class="dimovit">
+	<h1>Mis Datos</h1>
+	<form id="form_register">
+		<label> Nombre Completo</label>
+		<input type="text" name="nombre_completo" value="<?= @$user->display_name ?>" required>
+		<label> Cédula</label>
+		<input type="text" name="cedula" value="<?= @$meta->cedula ?>" required>
+		<label> WhatsApp</label>
+		<input type="number" maxlength='10' name="telefono" value="<?= @$meta->telefono ?>" required>
+		<label> Datos Bancarios</label>
+		<textarea maxlength='1000' rows="6" name="datos_bancarios"><?= @$meta->datos_bancarios ?></textarea>
+		<small>Esta información se le enviará a sus clientes para que le realicen el pago relacionado al uso de sus parqueaderos.</small><br>
+		<small style="font-weight:bold;">COLOQUE TODA LA INFORMACIÓN NECESARIA PARA QUE LOS PAGOS SE REALICEN EXITOSAMENTE.</small>
+		<div class="form_buttons">
+			<button type="submit">Guardar Datos</button>
+		</div>
+	</form>
 </div>
-
-<div id="fake_body">
-	<div id="history_content">
-		<span id="subtitle">Historial</span>
-		<select name="rutas_realizadas" id="complete_routes">
-			<option value="">Rutas realizadas</option>
-			<option value="">Ruta 1</option>
-			<option value="">Ruta 2</option>
-		</select>
-	</div>
-
-	<div id="personal_content">
-		<span id="subtitle">Personal</span>
-		<div>
-			<i class="fa fa-user"></i>
-			<input type="text" value="Andrés Sanchez" readonly>
-		</div>
-		<div>
-			<i class="fa fa-envelope"></i>
-			<input type="text" value="andresanchez@gmail.com" readonly>
-		</div>
-		<div>
-			<i class="fa fa-phone"></i>
-			<input type="text" value="+57 300 223 2222" readonly>
-		</div>
-	</div>
-
-	<div id="preferences_content">
-		<span id="subtitle">Preferencias</span>
-		<div>
-			<input type="text" value="Recibir notificaciones" readonly>
-			<div id="toggle_group">
-				<div id="toggle"></div>
-			</div>
-		</div>
-	</div>
-
-	<a href="/wp-login.php?action=logout"><button id="close_session">Cerrar sesión</button></a>
-</div>
-
 <style>
 	#main {
-		background-color: #FFF;
+		padding: 20px;
 		height: 100vh;
-		width: 100%;
 	}
 
-	#fake_header_main {
-		background-color: #f07647;
+	label.check {
+		display: inline-block;
+		width: 47%;
+		margin-bottom: 10px;
 	}
 
-	#fake_header {
+	.form_buttons {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/* .form_buttons>* {
+		width: 49% !important;
+		font-size: 18px;
+		padding: 3px;
+		border-radius: 5px;
+		color: white;
+		text-align: center;
+		margin: 0 !important;
+	} */
+
+	.form_buttons>button {
+		background: #f07647;
 		color: #FFF;
-		height: 7.5vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	#ext_fake_header {
-		height: 7vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	#img_profile,
-	#QR_code {
-		background-color: #FFF;
-		padding: 0.5vh;
-		margin-top: 7.5vh;
-		height: 15vh;
-		width: 15vh;
-	}
-
-	#img_profile {
-		border-radius: 200px;
-	}
-
-	#QR_code {
-		margin-left: 10%;
-	}
-
-	#title {
+		font-size: 16px;
 		text-transform: capitalize;
-		font-size: 20px;
 		font-weight: lighter;
 	}
 
-	#chevron_left {
-		margin-left: 2vh;
+	.form_buttons>a {
+		background: #a7a7a7;
+	}
+
+	#map {
+		height: 400px;
+	}
+
+	#floating-panel {
 		position: absolute;
-		left: 5px;
-		color: #FFF;
-	}
-
-	#fake_body {
-		margin-top: 10vh;
-		margin-left: 6vh;
-		margin-right: 6vh;
-	}
-
-	#personal_content,
-	#preferences_content {
-		margin-top: 5vh;
-	}
-
-	#main input,
-	#main select {
-		border: none;
-		border-bottom: 0.5px solid #a7a7a7;
-		width: 100%;
-		background-color: transparent;
-		box-shadow: none;
-		-webkit-box-shadow: none;
-	}
-
-	#subtitle {
-		color: #b0b0b0;
-		margin-left: 1.5vh;
-		font-size: 15px;
-	}
-
-	#personal_content div i {
-		color: #000;
-		position: fixed;
-		margin-top: 1.5vh;
-		margin-left: 1.5vh;
-	}
-
-	#personal_content div input {
-		padding-left: 5vh;
-	}
-
-	#preferences_content div {
-		display: flex;
-	}
-
-	/* TOGGLEBUTTON ---*/
-	#toggle_group {
-		/* background-color: #53658d; */
-		/* background-color: grey; */
-		width: 3.5vh;
-		padding: 0.3vh;
-		padding-right: 0px;
-		position: fixed;
-		right: 6vh;
-		margin-top: 11px;
-	}
-
-	#toggle_group,
-	#toggle {
-		border-radius: 10px;
-	}
-
-	/* --- */
-
-	#close_session {
-		color: #53658d;
-		border-color: #53658d;
-		border-width: 1px;
-		border-radius: 30px;
-		margin-top: 10vh;
-		width: 100%;
+		top: 10px;
+		left: 25%;
+		z-index: 5;
+		background-color: #fff;
+		padding: 5px;
+		border: 1px solid #999;
+		text-align: center;
+		font-family: "Roboto", "sans-serif";
+		line-height: 30px;
+		padding-left: 10px;
 	}
 </style>
-
 <script>
 	jQuery(function($) {
-		let valor = "on";
-
-		$(document).ready(() => {
-			switch_toggle();
+		$('form').on('submit', function(e) {
+			e.preventDefault()
+			var btn = $(this).find('button[type=submit]');
+			btn.html("Espere...");
+			var data = $(this).serialize();
+			$.post('/wp-admin/admin-ajax.php?action=custom_ajax&caction=update_userdata',
+				data,
+				function(r) {
+					alert(r.message);
+					btn.html("Guardar Datos");
+				}, "json")
+			return false;
 		});
-
-		//Al dar click en la etiqueta <a> se devuelve a la página/pantalla anterior
-		$("#chevron_left").click(() => {
-			$("#chevron_left").attr("href", history.go(-1));
-		});
-
-		//Acciones del TOGGLEBUTTON
-		$("#toggle_group").click(() => {
-			if (valor == "on") {
-				valor = "off"
-			} else {
-				valor = "on"
-			}
-
-			switch_toggle();
-		});
-
-
-		function switch_toggle() {
-			if (valor == "on") {
-				$("#toggle").css({
-					"background-color": "#FFF",
-					"height": "1.3vh",
-					"width": "1.3vh",
-					"margin-left": "1.6vh"
-				})
-
-				$("#toggle_group").css("background-color", "#53658d");
-
-			} else {
-				$("#toggle").css({
-					"background-color": "#FFF",
-					"height": "1.3vh",
-					"width": "1.3vh",
-					"margin-left": "0vh"
-				});
-
-				$("#toggle_group").css("background-color", "grey");
-			}
-		}
-	});
+	})
 </script>

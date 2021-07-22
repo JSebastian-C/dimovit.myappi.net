@@ -3700,3 +3700,55 @@ Stack trace:
 [21-Jul-2021 10:03:53 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
 [21-Jul-2021 10:03:53 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
 [21-Jul-2021 10:03:53 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Stack trace:
+[22-Jul-2021 09:09:29 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[22-Jul-2021 09:09:29 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[22-Jul-2021 09:09:29 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[22-Jul-2021 09:09:29 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[22-Jul-2021 09:09:29 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[22-Jul-2021 09:09:29 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[22-Jul-2021 09:09:29 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[22-Jul-2021 09:09:29 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[22-Jul-2021 09:09:29 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[22-Jul-2021 09:09:29 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Stack trace:
+[22-Jul-2021 09:09:29 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[22-Jul-2021 09:09:29 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[22-Jul-2021 09:09:29 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[22-Jul-2021 09:09:29 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[22-Jul-2021 09:09:29 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[22-Jul-2021 09:09:29 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[22-Jul-2021 09:09:29 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[22-Jul-2021 09:09:29 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[22-Jul-2021 09:09:29 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[22-Jul-2021 09:09:29 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[22-Jul-2021 09:09:29 America/Bogota] PHP Stack trace:
+[22-Jul-2021 09:09:29 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[22-Jul-2021 09:09:29 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[22-Jul-2021 09:09:30 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[22-Jul-2021 09:09:30 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[22-Jul-2021 09:09:30 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[22-Jul-2021 09:09:30 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[22-Jul-2021 09:09:30 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[22-Jul-2021 09:09:30 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[22-Jul-2021 09:09:30 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[22-Jul-2021 09:09:30 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[22-Jul-2021 09:09:30 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[22-Jul-2021 09:09:30 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[22-Jul-2021 09:09:30 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[22-Jul-2021 09:09:30 America/Bogota] PHP Stack trace:
+[22-Jul-2021 09:09:30 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[22-Jul-2021 09:09:30 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[22-Jul-2021 09:09:30 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[22-Jul-2021 09:09:30 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[22-Jul-2021 09:09:30 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[22-Jul-2021 09:09:30 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[22-Jul-2021 09:09:30 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[22-Jul-2021 09:09:30 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[22-Jul-2021 09:09:30 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[22-Jul-2021 09:09:30 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[22-Jul-2021 09:09:30 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[22-Jul-2021 09:09:30 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313

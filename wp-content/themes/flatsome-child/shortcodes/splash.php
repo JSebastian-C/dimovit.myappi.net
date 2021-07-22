@@ -245,7 +245,7 @@
 
 			//Acción que se realiza al presionar el botón con el identificador "#next"
 			$("#next").click(() => {
-				console.log(cnt);
+
 				if (cnt > 3) {
 					setCookie('first_time', 1, 3650);
 					window.location.href = "/clogin";
