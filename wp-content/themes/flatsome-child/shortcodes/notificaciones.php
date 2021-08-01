@@ -208,6 +208,11 @@ $notificaciones = $wpdb->get_results("select * from wp_notificaciones where id_d
 </style>
 <script>
 	jQuery(function($) {
+		window.onload = () => {
+			/* Titulo del header */
+			$("#logo>a").attr("href", "/start");
+		}
+
 		$(".parqueadero .declinar").on("click", function() {
 			if (confirm("¿Desea eliminar la solicitud de parqueadero?")) {
 				var btn = $(this);

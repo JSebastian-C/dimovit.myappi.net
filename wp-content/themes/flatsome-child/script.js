@@ -22,8 +22,6 @@ function setCookie(cname, cvalue, exdays) {
 }
 
 jQuery(function ($) {
-	jQuery(".logo").attr("href", '/start');
-
 	//Anula la visualización del footer---
 	jQuery("#footer").remove();
 	jQuery("#content p").remove();

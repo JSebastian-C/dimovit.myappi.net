@@ -3752,3 +3752,153 @@ Stack trace:
 [22-Jul-2021 09:09:30 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
 [22-Jul-2021 09:09:30 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
 [22-Jul-2021 09:09:30 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:53:20 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[23-Jul-2021 08:53:20 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[23-Jul-2021 08:53:20 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[23-Jul-2021 08:53:20 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[23-Jul-2021 08:53:20 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[23-Jul-2021 08:53:20 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[23-Jul-2021 08:53:20 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[23-Jul-2021 08:53:20 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[23-Jul-2021 08:53:20 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[23-Jul-2021 08:53:20 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:53:20 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[23-Jul-2021 08:53:20 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[23-Jul-2021 08:53:20 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[23-Jul-2021 08:53:20 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[23-Jul-2021 08:53:20 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[23-Jul-2021 08:53:20 America/Bogota] PHP   6. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1037
+[23-Jul-2021 08:53:20 America/Bogota] PHP   7. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[23-Jul-2021 08:53:20 America/Bogota] PHP   8. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[23-Jul-2021 08:53:20 America/Bogota] PHP   9. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:235
+[23-Jul-2021 08:53:20 America/Bogota] PHP  10. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:53:20 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[23-Jul-2021 08:53:20 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[23-Jul-2021 08:53:20 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[23-Jul-2021 08:53:20 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[23-Jul-2021 08:53:20 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[23-Jul-2021 08:53:20 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[23-Jul-2021 08:53:20 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[23-Jul-2021 08:53:20 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[23-Jul-2021 08:53:20 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[23-Jul-2021 08:53:20 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[23-Jul-2021 08:53:20 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[23-Jul-2021 08:53:20 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de contenido iapp_showcase no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php on line 5313
+[23-Jul-2021 08:53:20 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:53:20 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:0
+[23-Jul-2021 08:53:20 America/Bogota] PHP   2. wp_dashboard() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\index.php:181
+[23-Jul-2021 08:53:20 America/Bogota] PHP   3. do_meta_boxes() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:256
+[23-Jul-2021 08:53:20 America/Bogota] PHP   4. wp_dashboard_site_activity() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\template.php:1389
+[23-Jul-2021 08:53:20 America/Bogota] PHP   5. wp_dashboard_recent_comments() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:908
+[23-Jul-2021 08:53:20 America/Bogota] PHP   6. _wp_dashboard_recent_comments_row() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:1055
+[23-Jul-2021 08:53:20 America/Bogota] PHP   7. current_user_can() D:\P\Wamp\www\dimovit.myappi.net\wp-admin\includes\dashboard.php:668
+[23-Jul-2021 08:53:20 America/Bogota] PHP   8. WP_User->has_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:698
+[23-Jul-2021 08:53:20 America/Bogota] PHP   9. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-user.php:752
+[23-Jul-2021 08:53:20 America/Bogota] PHP  10. map_meta_cap() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:408
+[23-Jul-2021 08:53:20 America/Bogota] PHP  11. _doing_it_wrong() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\capabilities.php:166
+[23-Jul-2021 08:53:20 America/Bogota] PHP  12. trigger_error() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:5313
+[23-Jul-2021 08:58:27 America/Bogota] PHP Warning:  include(D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child/shortcodes/my_cars.php): failed to open stream: No such file or directory in D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child\functions.php on line 932
+[23-Jul-2021 08:58:27 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:58:27 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\index.php:0
+[23-Jul-2021 08:58:27 America/Bogota] PHP   2. require() D:\P\Wamp\www\dimovit.myappi.net\index.php:17
+[23-Jul-2021 08:58:27 America/Bogota] PHP   3. wp() D:\P\Wamp\www\dimovit.myappi.net\wp-blog-header.php:16
+[23-Jul-2021 08:58:27 America/Bogota] PHP   4. WP->main() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:1291
+[23-Jul-2021 08:58:27 America/Bogota] PHP   5. WP->parse_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:750
+[23-Jul-2021 08:58:27 America/Bogota] PHP   6. do_action_ref_array() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:388
+[23-Jul-2021 08:58:27 America/Bogota] PHP   7. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:551
+[23-Jul-2021 08:58:27 America/Bogota] PHP   8. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[23-Jul-2021 08:58:27 America/Bogota] PHP   9. rest_api_loaded() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  10. WP_REST_Server->serve_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api.php:354
+[23-Jul-2021 08:58:27 America/Bogota] PHP  11. WP_REST_Server->dispatch() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:412
+[23-Jul-2021 08:58:27 America/Bogota] PHP  12. WP_REST_Server->respond_to_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:985
+[23-Jul-2021 08:58:27 America/Bogota] PHP  13. WP_REST_Autosaves_Controller->create_item() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:1139
+[23-Jul-2021 08:58:27 America/Bogota] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:239
+[23-Jul-2021 08:58:27 America/Bogota] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[23-Jul-2021 08:58:27 America/Bogota] PHP  16. apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[23-Jul-2021 08:58:27 America/Bogota] PHP  17. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:212
+[23-Jul-2021 08:58:27 America/Bogota] PHP  18. flatsome_contentfix() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  19. do_shortcode() D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php:203
+[23-Jul-2021 08:58:27 America/Bogota] PHP  20. preg_replace_callback() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  21. do_shortcode_tag() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  22. custom_shortcodes() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:343
+[23-Jul-2021 08:58:27 America/Bogota] PHP Warning:  include(): Failed opening 'D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child/shortcodes/my_cars.php' for inclusion (include_path='.;C:\php\pear') in D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child\functions.php on line 932
+[23-Jul-2021 08:58:27 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:58:27 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\index.php:0
+[23-Jul-2021 08:58:27 America/Bogota] PHP   2. require() D:\P\Wamp\www\dimovit.myappi.net\index.php:17
+[23-Jul-2021 08:58:27 America/Bogota] PHP   3. wp() D:\P\Wamp\www\dimovit.myappi.net\wp-blog-header.php:16
+[23-Jul-2021 08:58:27 America/Bogota] PHP   4. WP->main() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:1291
+[23-Jul-2021 08:58:27 America/Bogota] PHP   5. WP->parse_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:750
+[23-Jul-2021 08:58:27 America/Bogota] PHP   6. do_action_ref_array() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:388
+[23-Jul-2021 08:58:27 America/Bogota] PHP   7. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:551
+[23-Jul-2021 08:58:27 America/Bogota] PHP   8. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[23-Jul-2021 08:58:27 America/Bogota] PHP   9. rest_api_loaded() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  10. WP_REST_Server->serve_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api.php:354
+[23-Jul-2021 08:58:27 America/Bogota] PHP  11. WP_REST_Server->dispatch() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:412
+[23-Jul-2021 08:58:27 America/Bogota] PHP  12. WP_REST_Server->respond_to_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:985
+[23-Jul-2021 08:58:27 America/Bogota] PHP  13. WP_REST_Autosaves_Controller->create_item() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:1139
+[23-Jul-2021 08:58:27 America/Bogota] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:239
+[23-Jul-2021 08:58:27 America/Bogota] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[23-Jul-2021 08:58:27 America/Bogota] PHP  16. apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:603
+[23-Jul-2021 08:58:27 America/Bogota] PHP  17. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:212
+[23-Jul-2021 08:58:27 America/Bogota] PHP  18. flatsome_contentfix() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  19. do_shortcode() D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php:203
+[23-Jul-2021 08:58:27 America/Bogota] PHP  20. preg_replace_callback() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  21. do_shortcode_tag() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  22. custom_shortcodes() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:343
+[23-Jul-2021 08:58:27 America/Bogota] PHP Warning:  include(D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child/shortcodes/my_cars.php): failed to open stream: No such file or directory in D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child\functions.php on line 932
+[23-Jul-2021 08:58:27 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:58:27 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\index.php:0
+[23-Jul-2021 08:58:27 America/Bogota] PHP   2. require() D:\P\Wamp\www\dimovit.myappi.net\index.php:17
+[23-Jul-2021 08:58:27 America/Bogota] PHP   3. wp() D:\P\Wamp\www\dimovit.myappi.net\wp-blog-header.php:16
+[23-Jul-2021 08:58:27 America/Bogota] PHP   4. WP->main() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:1291
+[23-Jul-2021 08:58:27 America/Bogota] PHP   5. WP->parse_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:750
+[23-Jul-2021 08:58:27 America/Bogota] PHP   6. do_action_ref_array() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:388
+[23-Jul-2021 08:58:27 America/Bogota] PHP   7. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:551
+[23-Jul-2021 08:58:27 America/Bogota] PHP   8. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[23-Jul-2021 08:58:27 America/Bogota] PHP   9. rest_api_loaded() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  10. WP_REST_Server->serve_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api.php:354
+[23-Jul-2021 08:58:27 America/Bogota] PHP  11. WP_REST_Server->dispatch() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:412
+[23-Jul-2021 08:58:27 America/Bogota] PHP  12. WP_REST_Server->respond_to_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:985
+[23-Jul-2021 08:58:27 America/Bogota] PHP  13. WP_REST_Autosaves_Controller->create_item() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:1139
+[23-Jul-2021 08:58:27 America/Bogota] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:239
+[23-Jul-2021 08:58:27 America/Bogota] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[23-Jul-2021 08:58:27 America/Bogota] PHP  16. WP_REST_Revisions_Controller->prepare_excerpt_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:610
+[23-Jul-2021 08:58:27 America/Bogota] PHP  17. apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:826
+[23-Jul-2021 08:58:27 America/Bogota] PHP  18. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:212
+[23-Jul-2021 08:58:27 America/Bogota] PHP  19. Vc_Base->excerptFilter() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:294
+[23-Jul-2021 08:58:27 America/Bogota] PHP  20. do_shortcode() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\js_composer\include\classes\core\class-vc-base.php:718
+[23-Jul-2021 08:58:27 America/Bogota] PHP  21. preg_replace_callback() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  22. do_shortcode_tag() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  23. custom_shortcodes() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:343
+[23-Jul-2021 08:58:27 America/Bogota] PHP Warning:  include(): Failed opening 'D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child/shortcodes/my_cars.php' for inclusion (include_path='.;C:\php\pear') in D:\P\Wamp\www\dimovit.myappi.net\wp-content\themes\flatsome-child\functions.php on line 932
+[23-Jul-2021 08:58:27 America/Bogota] PHP Stack trace:
+[23-Jul-2021 08:58:27 America/Bogota] PHP   1. {main}() D:\P\Wamp\www\dimovit.myappi.net\index.php:0
+[23-Jul-2021 08:58:27 America/Bogota] PHP   2. require() D:\P\Wamp\www\dimovit.myappi.net\index.php:17
+[23-Jul-2021 08:58:27 America/Bogota] PHP   3. wp() D:\P\Wamp\www\dimovit.myappi.net\wp-blog-header.php:16
+[23-Jul-2021 08:58:27 America/Bogota] PHP   4. WP->main() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\functions.php:1291
+[23-Jul-2021 08:58:27 America/Bogota] PHP   5. WP->parse_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:750
+[23-Jul-2021 08:58:27 America/Bogota] PHP   6. do_action_ref_array() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp.php:388
+[23-Jul-2021 08:58:27 America/Bogota] PHP   7. WP_Hook->do_action() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:551
+[23-Jul-2021 08:58:27 America/Bogota] PHP   8. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:316
+[23-Jul-2021 08:58:27 America/Bogota] PHP   9. rest_api_loaded() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:292
+[23-Jul-2021 08:58:27 America/Bogota] PHP  10. WP_REST_Server->serve_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api.php:354
+[23-Jul-2021 08:58:27 America/Bogota] PHP  11. WP_REST_Server->dispatch() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:412
+[23-Jul-2021 08:58:27 America/Bogota] PHP  12. WP_REST_Server->respond_to_request() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:985
+[23-Jul-2021 08:58:27 America/Bogota] PHP  13. WP_REST_Autosaves_Controller->create_item() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\class-wp-rest-server.php:1139
+[23-Jul-2021 08:58:27 America/Bogota] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:239
+[23-Jul-2021 08:58:27 America/Bogota] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php:406
+[23-Jul-2021 08:58:27 America/Bogota] PHP  16. WP_REST_Revisions_Controller->prepare_excerpt_response() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:610
+[23-Jul-2021 08:58:27 America/Bogota] PHP  17. apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php:826
+[23-Jul-2021 08:58:27 America/Bogota] PHP  18. WP_Hook->apply_filters() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\plugin.php:212
+[23-Jul-2021 08:58:27 America/Bogota] PHP  19. Vc_Base->excerptFilter() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\class-wp-hook.php:294
+[23-Jul-2021 08:58:27 America/Bogota] PHP  20. do_shortcode() D:\P\Wamp\www\dimovit.myappi.net\wp-content\plugins\js_composer\include\classes\core\class-vc-base.php:718
+[23-Jul-2021 08:58:27 America/Bogota] PHP  21. preg_replace_callback() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  22. do_shortcode_tag() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:218
+[23-Jul-2021 08:58:27 America/Bogota] PHP  23. custom_shortcodes() D:\P\Wamp\www\dimovit.myappi.net\wp-includes\shortcodes.php:343

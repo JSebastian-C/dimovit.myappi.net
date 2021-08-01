@@ -26,6 +26,10 @@ Version: 3.0
     background: linear-gradient(#FFF, #FFF, #ffe5d4);
 }
 
+/* #main-menu div ul li a {
+    text-transform: capitalize;
+} */
+
 /* Botón de registro */
 
 #um-submit-btn {

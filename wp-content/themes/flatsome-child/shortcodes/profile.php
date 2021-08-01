@@ -82,6 +82,11 @@ global $meta;
 </style>
 <script>
 	jQuery(function($) {
+		window.onload = () => {
+			/* Titulo del header */
+			$("#logo>a").attr("href", "/start");
+		}
+
 		$('form').on('submit', function(e) {
 			e.preventDefault()
 			var btn = $(this).find('button[type=submit]');

@@ -5,8 +5,8 @@ $parqueaderos = $wpdb->get_results("select * from wp_parqueaderos where user_id 
 ?>
 <div class="dimovit">
 	<h1>
-		Mis vehiculos
-		<a href="/publicar-parqueadero" class="publicar"><i class="fa fa-plus"></i></a>
+		Mis vehículos
+		<a href="#" class="publicar"><i class="fa fa-plus"></i></a>
 	</h1>
 	<?php if (!empty($parqueaderos)) : ?>
 		<?php foreach ($parqueaderos as $p) : ?>
@@ -23,6 +23,11 @@ $parqueaderos = $wpdb->get_results("select * from wp_parqueaderos where user_id 
 	<?php endif; ?>
 </div>
 <style>
+	#main {
+		height: 100vh;
+		padding: 20px;
+	}
+
 	.parqueadero b {
 		font-size: 18px;
 	}
@@ -59,7 +64,6 @@ $parqueaderos = $wpdb->get_results("select * from wp_parqueaderos where user_id 
 	}
 
 	.publicar {
-
 		font-size: 18px;
 		background: #4eda4e;
 		color: white;
@@ -67,11 +71,15 @@ $parqueaderos = $wpdb->get_results("select * from wp_parqueaderos where user_id 
 		line-height: 9px;
 		border-radius: 3px;
 		float: right;
-
 	}
 </style>
 <script>
 	jQuery(function($) {
+		window.onload = () => {
+			/* Titulo del header */
+			$("#logo>a").attr("href", "/start");
+		}
+
 		$('.delete').on('click', function(e) {
 			e.preventDefault();
 			var json = $(this).data("json");
@@ -88,6 +96,7 @@ $parqueaderos = $wpdb->get_results("select * from wp_parqueaderos where user_id 
 			}
 
 		})
+		
 		$('form').on('submit', function(e) {
 			e.preventDefault()
 			var data = $(this).serialize();
