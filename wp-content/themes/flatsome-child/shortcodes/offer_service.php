@@ -1,6 +1,4 @@
-<div id="map">
-    MAPA AQUÍ
-</div>
+<div id="map"></div>
 
 <!-- <div id="aux_window">
     <div id="notification"></div>
@@ -12,6 +10,10 @@
         height: 100vh;
     }
 
+  #map {
+    	height: 100vh;
+     	width: 100%;
+    }
    /*  #map {
         background-color: #BFBFC0;
         height: 75vh;
@@ -156,8 +158,21 @@
     }
 </style>
 
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmaPhesJ1SFRazCyFMZCwZohMnqT9V8E&callback=initMap"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmaPhesJ1SFRazCyFMZCwZohMnqT9V8E"></script>
 <script>
-    let alert = "",
+	let map;
+  		function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {
+              lat: 3.420556,
+              lng: -76.522224
+            },
+            zoom: 12,
+          });
+      	}
+
+  let alert = "",
         user = "",
         sign = "",
         step = 2,
@@ -227,6 +242,7 @@
 
             aux_window();
             notification();
+          	initMap();
         }
 
         //Logica para mostrar el mensaje de instrucción o datos del cliente en la ventana inferior

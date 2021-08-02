@@ -1,6 +1,4 @@
-MAPA AQUÍ
-
-
+<div id="map"></div>
 
 <!-- Shortcode de Flatsome para mostrar un lightbox -->
 <!-- [button id="b_modal_start" text="Empezar" link="#modal_start" background-color: #FFF;]
@@ -55,6 +53,11 @@ MAPA AQUÍ
     #main {
         height: 100vh;
         width: 100%;
+    }
+  
+  	#map {
+    	height: 100vh;
+     	width: 100%;
     }
 
     /* .mfp-container {} */
@@ -197,7 +200,21 @@ MAPA AQUÍ
     }
 </style>
 
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmaPhesJ1SFRazCyFMZCwZohMnqT9V8E&callback=initMap"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmaPhesJ1SFRazCyFMZCwZohMnqT9V8E"></script>
 <script>
+	let map;
+  		function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {
+              lat: 3.420556,
+              lng: -76.522224
+            },
+            zoom: 12,
+          });
+      	}
+  
+    
     //Rol 1: cliente | Rol 2: conductor
     let rol = 1,
         calification = 4,
@@ -216,6 +233,8 @@ MAPA AQUÍ
 
             //Acción de los botones en la ventana modal de calificación al conductor
             buttons();
+          
+         	initMap();
         }
 
         //Lógica de la calificación del conductor
@@ -261,6 +280,5 @@ MAPA AQUÍ
                 });
             }
         }
-
     });
 </script>
